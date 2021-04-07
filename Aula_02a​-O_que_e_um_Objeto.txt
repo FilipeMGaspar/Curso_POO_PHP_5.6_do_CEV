@@ -47,6 +47,9 @@ Classe caneta
 modelo: Caracter
 cor: Caracter
 ponta:Real
+carga:Inteiro
+tampada:Logico
+
 
 
 fimclasee
