@@ -40,3 +40,13 @@ Coisas que eu faço  = Métodos
 Como estou agora = Estado
 	Está com 50% de carga com ponta fina está escrvendo destampada
 
+
+
+Classe caneta
+
+modelo: Caracter
+cor: Caracter
+ponta:Real
+
+
+fimclasee
