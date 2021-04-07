@@ -50,6 +50,11 @@ ponta:Real
 carga:Inteiro
 tampada:Logico
 
+Metodo rabiscar()
 
+FimMetodo
 
-fimclasee
+Metodo tampar()
+FimMetodo
+
+FimClasee
