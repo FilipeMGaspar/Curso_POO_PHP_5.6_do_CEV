@@ -7,5 +7,9 @@ C - Confiável - O isolamento entre as partes gera software seguro. Ao alterar u
 
 O - Oportuno - Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
 
-M - 
+M - Manutenível - Atualisar um software é mais fácil. Uma pequena modificação vai beneficiar todas as partes que usarem o objeto.
+
+E - Extensível - O software não é estático. Ele deve Crescer para permanecer útil.
+
+
 	
