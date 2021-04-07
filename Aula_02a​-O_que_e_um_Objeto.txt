@@ -103,12 +103,9 @@ c1.tampar() //Método
 
 
 CLASSE
-Define os
-atributos e 
-métodos comuns
-que serão
-compartilhados
-por um objeto
+Define os atributos e métodos comuns
+que serão compartilhados por um objeto
 
 
 OBJETO
+É uma instância de uma classe
