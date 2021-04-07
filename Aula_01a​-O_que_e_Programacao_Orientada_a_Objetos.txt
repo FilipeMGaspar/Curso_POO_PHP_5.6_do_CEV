@@ -11,5 +11,7 @@ M - Manutenível - Atualisar um software é mais fácil. Uma pequena modificaç�
 
 E - Extensível - O software não é estático. Ele deve Crescer para permanecer útil.
 
+R - Reutilizável - podemos usar objetos de um sistema que criamos em outro sistema futuro.
 
+N - Natural - 
 	
