@@ -18,25 +18,25 @@ Molde da Caneta é uma classe
 
 Uma classe deve responder as três pergunstas
 
-Coisas que eu tenho
-Modelo
-cor
-ponta
-carga
-Tampada
+Coisas que eu tenho = Atributos
+	Modelo
+	cor
+	ponta
+	carga
+	Tampada
 
 
 
-Coisas que eu faço
-Escrever
-Rabiscar
-Pintar
-Tampar
-Destampar
+Coisas que eu faço  = Métodos
+	Escrever
+	Rabiscar
+	Pintar
+	Tampar
+	Destampar
 
 
 
 
-Como estou agora
-Está com 450% de carga com ponta fina está escrvendo destampada
+Como estou agora = Estado
+	Está com 50% de carga com ponta fina está escrvendo destampada
 
