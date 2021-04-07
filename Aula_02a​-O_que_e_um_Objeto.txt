@@ -10,3 +10,33 @@ caracteristicas,
 comportamentos e 
 estado atual.
 
+
+Caneta é um objeto
+
+Molde da Caneta é uma classe
+
+
+Uma classe deve responder as três pergunstas
+
+Coisas que eu tenho
+Modelo
+cor
+ponta
+carga
+Tampada
+
+
+
+Coisas que eu faço
+Escrever
+Rabiscar
+Pintar
+Tampar
+Destampar
+
+
+
+
+Como estou agora
+Está com 450% de carga com ponta fina está escrvendo destampada
+
