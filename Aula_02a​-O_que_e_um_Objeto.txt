@@ -59,6 +59,7 @@ Metodo rabiscar()
 FimMetodo
 
 Metodo tampar()
+ tampada = verdadeiro
 FimMetodo
 
 FimClasee
