@@ -1,0 +1,9 @@
+Vantagem da POO  -  Programação Orientada a Objetos
+
+Vantagens
+	COMERNada -> forma de fixar
+
+C - Confiável - O isolamento entre as partes gera software seguro. Ao alterar uma parte, nunhuma outra é afetada.
+
+O - 
+	
