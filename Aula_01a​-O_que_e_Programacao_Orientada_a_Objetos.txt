@@ -5,5 +5,7 @@ Vantagens
 
 C - Confiável - O isolamento entre as partes gera software seguro. Ao alterar uma parte, nunhuma outra é afetada.
 
-O - 
+O - Oportuno - Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
+
+M - 
 	
