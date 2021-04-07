@@ -1,0 +1,12 @@
+ O que é um Objeto?
+
+ Objeto 
+Coisa material ou
+abstrata que pode ser
+percebida pelos 
+sentidos descrita 
+por meio das suas
+caracteristicas,
+comportamentos e 
+estado atual.
+
