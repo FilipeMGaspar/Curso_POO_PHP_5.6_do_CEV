@@ -62,4 +62,22 @@ Metodo tampar()
  tampada = verdadeiro
 FimMetodo
 
-FimClasee
+FimClase
+
+Todas as classes tÊm Atributos, Métodos e Estado
+
+Atributos
+  Modelo
+  Cor
+  Ponta
+  Carga
+  Tampada
+
+Métodos
+  Escrever
+  Rabiscar
+  Pintar
+  Tampar
+  Destampar
+
+Estado
