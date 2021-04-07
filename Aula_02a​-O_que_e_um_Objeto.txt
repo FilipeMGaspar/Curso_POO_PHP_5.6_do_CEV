@@ -85,3 +85,7 @@ Estado
   Azul
   90% de Cargar
  é dado no momento especifico
+
+instanciar é gerar um objeto a partir de um classe
+
+
