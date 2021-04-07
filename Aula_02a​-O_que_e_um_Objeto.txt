@@ -64,14 +64,14 @@ FimMetodo
 
 FimClase
 
-Todas as classes tÊm Atributos, Métodos e Estado
+Todas as classes têm Atributos, Métodos e Estado
 
 Atributos
-  Modelo
-  Cor
-  Ponta
-  Carga
-  Tampada
+  Modelo  BIC Cristal
+  Cor     Azul
+  Ponta   0.5
+  Carga   90
+  Tampada falso
 
 Métodos
   Escrever
@@ -81,3 +81,7 @@ Métodos
   Destampar
 
 Estado
+  Destampada
+  Azul
+  90% de Cargar
+ é dado no momento especifico
