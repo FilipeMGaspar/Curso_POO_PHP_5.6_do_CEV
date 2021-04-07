@@ -109,3 +109,16 @@ que serão compartilhados por um objeto
 
 OBJETO
 É uma instância de uma classe
+
+
+ABSTRAÇÃO
+
+
+
+Atividade
+ 
+ Identifique dois objetos fisicos do seu ambiente e classifique-os.
+
+ 
+ 
+
