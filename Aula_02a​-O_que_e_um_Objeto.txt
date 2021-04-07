@@ -51,7 +51,11 @@ carga:Inteiro
 tampada:Logico
 
 Metodo rabiscar()
-
+ Se (tampada) entao
+   Escreva("ERRO")
+ senao
+   Escreva("Rabiscando")
+ FimSe
 FimMetodo
 
 Metodo tampar()
