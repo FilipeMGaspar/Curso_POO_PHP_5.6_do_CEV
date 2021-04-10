@@ -21,7 +21,7 @@
 
         $samsung = new Impressora;
         $samsung->marca = "Samsung";
-        $samsung->modelo ="SX 4500 mono";
+        $samsung->modelo ="SX 4500 MonoCrom";
         $samsung->tipo = "Laser";
         $samsung->ligar();
         $samsung->imprimir();
