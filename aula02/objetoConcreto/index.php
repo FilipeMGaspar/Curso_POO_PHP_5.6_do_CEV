@@ -25,7 +25,7 @@
         $samsung->tipo = "Laser";
         $samsung->ligar();
         $samsung->imprimir();
-        print_r($samsung->);
+        print_r($samsung);
     ?>
 </body>
 </html>
