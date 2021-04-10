@@ -7,7 +7,7 @@
         var $tampada;
 
         function rabiscar(){
-            if(this->tampada == true){
+            if($this->tampada == true){
                 echo "<p>ERRO! Não posso rabiscar!</p>";
             }else{
                 echo "<p>Estou rabiscando...</p>";
