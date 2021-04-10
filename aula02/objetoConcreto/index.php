@@ -11,12 +11,15 @@
         require_once "Impressora.php";
 
         $hp = new Impressora;
-
         $hp->marca = "HP";
         $hp->modelo = "Officejet 2620";
         $hp->tipo = "Jato de tinta";
+        $hp->desligar();
+        $hp->imprimir();
         print_r($hp);
         echo "<br>";
+
+        
     ?>
 </body>
 </html>
