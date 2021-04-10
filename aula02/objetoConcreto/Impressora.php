@@ -6,13 +6,17 @@
  var $comfolha;
 
  function colcarFolha(){
-    
+    $this->comfolha = true;
  }
 
  function ligar(){
+    $this->ligado = true;
+ }
 
+ function desligar(){
+     $this->ligado = false;
  }
 
  function imprimir(){
-
+    
  }
