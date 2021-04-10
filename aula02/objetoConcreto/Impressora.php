@@ -13,5 +13,9 @@
  }
 
  function imprimir(){
-
+    if($this->ligado = true){
+        echo "<p>A Imprimir!</p>";
+    }else{
+        echo "<p>ERRO! Impressora desligada!</p>";
+    }
  }
