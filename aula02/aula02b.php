@@ -22,6 +22,7 @@
         $c2->cor = "Verde";
         $c2->carga = 50;
         $c2->tampar();
+        $c1->rabiscar();
         print_r($c2);
 
     ?>
