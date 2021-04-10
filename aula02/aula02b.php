@@ -15,6 +15,8 @@
         $c1->cor = "Azul";
         $c1->ponta = 0.5;
         $c1->tampada = false;
+
+        var_dump($c1);
     ?>
 </body>
 </html>

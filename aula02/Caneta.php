@@ -7,7 +7,7 @@
         var $tampada;
 
         function rabiscar(){
-
+            echo "Estou rabiscando...";
         }
 
         function tampar(){
