@@ -1,0 +1,84 @@
+Atividade
+ 
+ Identifique dois objetos fisicos do seu ambiente e classifique-os.
+
+objeto fisico
+	Disco Rígido
+
+	Coisas que eu tenho = Atributos
+	 Marca
+	 Modelo
+	 Numero de Serie
+	 Tamanho
+	 Formatado	
+	
+	Coisas que eu faço  = Métodos
+	 Gravaficheiros
+	 LerFicheiro
+	 formatar 		
+
+	Como estou agora = Estado
+	 Seagate Barracuda de 250Gb a gravarFicheiros
+
+objeto fisico
+	Livro
+
+	Coisas que eu tenho = Atributos
+	 Titulo
+	 Autor
+	 Editora
+         Preco
+
+	
+	Coisas que eu faço  = Métodos
+	 Abrir
+	 Fechar
+	 MudarDePagina
+			
+
+	Como estou agora = Estado
+	 ler sem receio do Escrivas dos Santos aberto na página 25
+
+ Identifique dois objetos conceituais do seu dia-a-dia e classifique-os.
+
+	
+	Objeto conceitual
+	 Férias 
+	
+	Coisas que eu tenho = Atributos
+	 Nome do funcionário
+         Data de Inicio
+	 Data de Fim
+	 Quantidade de dias
+ 	 Autorisadas	 
+
+         	 
+
+	Coisas que eu faço  = Métodos
+	 Marcar
+	 Remarcar
+	 Anular	
+	
+	Como estou agora = Estado
+        As férias de 22 dias do Sr. Joaquim estão a ser marcadas
+
+  
+
+Objeto conceitual
+	Mapa de faltas de uma turma
+	
+	Coisas que eu tenho = Atributos	
+	 Numero do aluno
+	 Nome do aluno
+	 Data
+	 Presente
+         Nome da disciplina	 
+
+	Coisas que eu faço  = Métodos
+         MarcarFalta
+	 JustificarFalta
+         ContarNumeroDeFaltas	
+	
+	Como estou agora = Estado
+         O João Felgueiras no dia 30 de Fevereiro de 1910 faltou a Português Z
+
