@@ -1,0 +1,7 @@
+Criar as classes para o exericio da aula Aula_02a​:
+ Identifique dois objetos fisicos do seu ambiente e classifique-os.
+ Identifique dois objetos conceituais do seu dia-a-dia e classifique-os.
+
+Criar a classe para: 
+1 objeto abstrato 
+1 objeto conceitual
