@@ -8,6 +8,13 @@
 </head>
 <body>
     <?php
+        require_once "Impressora.php";
+
+        $hp = new Impressora;
+
+        $hp->marca = "HP";
+        $hp->modelo = "Officejet 2620";
+        $hp->tipo = "Jato de tinta";
         
     ?>
 </body>

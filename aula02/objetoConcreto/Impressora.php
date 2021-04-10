@@ -6,7 +6,7 @@
  var $comfolha;
 
  function colcarFolha(){
-
+    
  }
 
  function ligar(){
@@ -14,5 +14,5 @@
  }
 
  function imprimir(){
-     
+
  }
