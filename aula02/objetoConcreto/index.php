@@ -19,7 +19,13 @@
         print_r($hp);
         echo "<br>";
 
-        
+        $samsung = new Impressora~;
+        $samsung->marca = "Samsung";
+        $samsung->modelo ="SX 4500 mono";
+        $samsung->tipo = "Laser";
+        $samsung->ligar();
+        $samsung->imprimir();
+        print_r($samsung->);
     ?>
 </body>
 </html>
