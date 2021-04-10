@@ -17,7 +17,7 @@
         $c1->tampada = false;
 
         $c1->rabiscar();
-        var_dump($c1);
+        //var_dump($c1);
     ?>
 </body>
 </html>
