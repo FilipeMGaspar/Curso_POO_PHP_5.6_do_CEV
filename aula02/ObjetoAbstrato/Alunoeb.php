@@ -17,7 +17,7 @@
         if($this->inscrito == true){
             echo "<p>Seja Bem vindo! Escola Curso Em Video!</p>";
         }else{
-            echo "<p>Inscreva-se para entrar na Escola Curso Em Video!</p>"
+            echo "<p>Inscreva-se para entrar na Escola Curso Em Video!</p>";
         }
     }
 

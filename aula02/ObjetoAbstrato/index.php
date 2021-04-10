@@ -13,12 +13,18 @@
         $Bruno = new Alunoeb;
         $Bruno->nome = "Bruno Mateus";
         $Bruno->anoNascimento = 2008;
-        $Bruno->turma = "4º a";
+        $Bruno->turma = "3º a";
         $Bruno->increver();
         $Bruno->entrarNaEscola();
         print_r($Bruno);
 
-        
+        $Ana = new Alunoeb;
+        $Bruno->nome = "Ana Silva";
+        $Bruno->anoNascimento = 2009;
+        $Bruno->turma = "4º a";
+        $Bruno->transferir();
+        $Bruno->entrarNaEscola();
+        print_r($Ana);
 
     ?>
 </body>
