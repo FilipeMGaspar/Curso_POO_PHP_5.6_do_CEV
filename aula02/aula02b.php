@@ -16,6 +16,7 @@
         $c1->destampar();
         $c1->rabiscar();
         print_r($c1);
+        echo "<br>";
 
         $c2 = new Caneta;
         $c2->cor = "Verde";
