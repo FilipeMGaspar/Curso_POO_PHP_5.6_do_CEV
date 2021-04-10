@@ -16,6 +16,7 @@
         $c1->ponta = 0.5;
         $c1->tampada = false;
 
+        $c1->rabiscar();
         var_dump($c1);
     ?>
 </body>
