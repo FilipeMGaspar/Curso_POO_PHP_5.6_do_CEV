@@ -8,6 +8,10 @@
 </head>
 <body>
     <?php
+        require_once Caneta.php;
+
+        $c1 = new Caneta();
+
         
     ?>
 </body>
