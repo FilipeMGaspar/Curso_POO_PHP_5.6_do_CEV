@@ -14,6 +14,10 @@
         $Bruno->nome = "Bruno Mateus";
         $Bruno->anoNascimento = 2008;
         $Bruno->turma = "4º a";
+        $Bruno->increver();
+        $Bruno->entrarNaEscola();
+        print_r($Bruno);
+
         
 
     ?>
