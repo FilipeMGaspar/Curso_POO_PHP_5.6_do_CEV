@@ -12,7 +12,9 @@
 
         $c1 = new Caneta();
 
+        $c1->cor = "Azul";
         
+
     ?>
 </body>
 </html>
