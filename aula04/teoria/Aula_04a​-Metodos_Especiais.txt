@@ -1,0 +1,24 @@
+Métodos Especiais
+
+e = nova Estante //Intanciar uma classe
+t = e.totDoc //Atributo
+
+
+Métodos Acessores
+
+Getters   -> pega alguma informação obtém
+
+t = e.getTotDoc() // Método get
+
+
+e.totDoc = e.totDoc + 1 // Atributo
+
+Métodos Modificadores
+Setters -> modifica atributos dentro do objeto
+e.setTotDoc(doc); //método que recebe um parametro
+
+
+
+Método Construtor
+
+Construct 
