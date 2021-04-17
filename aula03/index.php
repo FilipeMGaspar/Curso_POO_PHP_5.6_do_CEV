@@ -11,7 +11,9 @@
         require_once "Caneta.php";
 
         $c1 = new Caneta;
-        
+        $c1->modelo = "BIC Cristal";
+
+        var_dump($c1);
 
     ?>
 </body>
