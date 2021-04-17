@@ -1,10 +1,10 @@
 <?php
     class Caneta{
-        private $marca;
-        private $cor;
+        public $marca;
+        public $cor;
         private $ponta;
-        private $carga;
-        private $tampada;
+        protected $carga;
+        protected $tampada;
 
         //Métodos get e set para o atributo marca
         public function setMarca($nMarca){
@@ -39,11 +39,22 @@
         }
 
         //Métodos get e set para o atributo tampada
-        public function setTampada($tampa){
+        private function setTampada($tampa){
             $this->tampada = $tampa;
         }
-        public function getTampada(){
+        private function getTampada(){
             return $this->tampada;
         }
+
+        //Método para colocar a tampa na caneta 
+        public function tampar(){
+            $this->setTampada(true);
+        }
+        
+        //Método para remover a tampa da caneta
+        public function destampar(){
+            $this->setTampada(false);
+        }
+
     }
 ?>
