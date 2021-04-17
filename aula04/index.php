@@ -18,6 +18,8 @@
             $c1->setCarga(85);
             $c1->tampar();
             echo "<br>";
+            echo "Eu tenho uma caneta ". $c1.getMarca()." de ponta ". $c1.getPonta();
+            echo "<br>";
             print_r($c1);
 
         ?>
