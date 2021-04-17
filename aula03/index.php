@@ -7,6 +7,8 @@
     <title>Aula 03b​ - Configurando Visibilidade de Atributos e Métodos</title>
 </head>
 <body>
+    <?php
     
+    ?>
 </body>
 </html>
