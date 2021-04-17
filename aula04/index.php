@@ -13,7 +13,7 @@
             require_once "Caneta.php";
             $c1 = new Caneta();
             $c1->setMarca("Uniball");
-            //$c1->getMarca();
+            $c1->setCor("Preta");
             echo "<br>";
             print_r($c1);
 
