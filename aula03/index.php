@@ -14,7 +14,8 @@
         $c1 = new Caneta;
         $c1->modelo = "BIC Cristal";
 
-        var_dump($c1);
+        //var_dump($c1);
+        print_r($c1);
 
     ?>
     </pre>
