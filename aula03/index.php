@@ -13,6 +13,7 @@
 
         $c1 = new Caneta;
         $c1->modelo = "BIC Cristal";
+        $c1->cor = "Azul";
 
         //var_dump($c1);
         print_r($c1);
