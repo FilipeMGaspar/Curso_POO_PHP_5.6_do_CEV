@@ -6,10 +6,10 @@
         private $carga;
         private $tampada;
 
-        public setMarca($nMarca){
+        public function setMarca($nMarca){
             $this->marca = $nMarca;
         }
-        public getMarca(){
+        public function getMarca(){
             echo "Marca: " . $this->marca . "<br>";
            // return $this->marca; 
         }
