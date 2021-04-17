@@ -8,7 +8,7 @@
 
         //Método Construtor
         //public function __construct(){
-        public function Caneta(){
+        public function Caneta(){ // método construtor
             $this->cor = "Azul";
             $this->tampar();
         }
