@@ -12,8 +12,11 @@
         <?php
             require_once "Caneta.php";
             $c1 = new Caneta("Melga", "Roxa", 0.7, 100);
-            
             print_r($c1);
+
+            echo "<br><br>";
+            $c2 = new Caneta("Kronos", "Verdejante", 1.5, 95);
+            print_r($c2);
 
         ?>
     </pre>
