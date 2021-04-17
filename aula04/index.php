@@ -8,12 +8,16 @@
     </title>
 </head>
 <body>
-    <?php
-        require_once "Caneta.php";
-        $c1 = new Caneta();
-        $c1->setMarca("Uniball");
-        $c1->getMarca();
+    <pre>
+        <?php
+            require_once "Caneta.php";
+            $c1 = new Caneta();
+            $c1->setMarca("Uniball");
+            //$c1->getMarca();
+            echo "<br>";
+            print_r($c1);
 
-    ?>
+        ?>
+    </pre>
 </body>
 </html>
