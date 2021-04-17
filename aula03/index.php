@@ -23,6 +23,7 @@
         print_r($c1);
         echo "<br>";
         $c1->rabiscar();
+        $c1->tampar();
     ?>
     </pre>
 </body>
