@@ -7,7 +7,7 @@
         protected $tampada;
 
         //Método Construtor
-        function 
+        //function 
 
         //Métodos get e set para o atributo marca
         public function setMarca($nMarca){
