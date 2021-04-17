@@ -8,6 +8,8 @@
     </title>
 </head>
 <body>
-    
+    <?php
+        require_once "Caneta.php";
+    ?>
 </body>
 </html>
