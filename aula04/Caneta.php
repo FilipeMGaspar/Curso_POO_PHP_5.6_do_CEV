@@ -12,8 +12,8 @@
             $this->cor = "Azul";
             $this->tampar();
         }*/
-        
-        public function Caneta($nMarca, $color, $dmPonta, $qtCarga){
+
+        public function Caneta($nMarca, $color, $dmPonta, $qtCarga){ //Método construtor com recebimento de parametros
             $this->setMarca($nMarca);
             $this->setCor($color);
             $this->setPonta($dmPonta);
