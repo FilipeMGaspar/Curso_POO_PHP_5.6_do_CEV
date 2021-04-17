@@ -8,8 +8,16 @@
 
         //Método Construtor
         //public function __construct(){
-        public function Caneta(){ // método construtor
+        /*public function Caneta(){ // método construtor
             $this->cor = "Azul";
+            $this->tampar();
+        }*/
+        
+        public function Caneta($nMarca, $color, $dmPonta, $qtCarga){
+            $this->setMarca($nMarca);
+            $this->setCor($color);
+            $this->setPonta($dmPonta);
+            $this->setCarga($qtCarga);
             $this->tampar();
         }
 
