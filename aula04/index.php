@@ -14,6 +14,7 @@
             $c1 = new Caneta();
             $c1->setMarca("Uniball");
             $c1->setCor("Preta");
+            $c1->setPonta(0.5);
             echo "<br>";
             print_r($c1);
 

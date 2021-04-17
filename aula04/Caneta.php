@@ -23,6 +23,12 @@
         }
 
         //Métodos get e set para o atributo ponta
+        public function setPonta($dmPonta){
+            $this->ponta = $dmPonta;
+        }
+        public function getPonta(){
+            return $this->ponta;
+        }
 
         //Métodos get e set para o atributo carga
 
