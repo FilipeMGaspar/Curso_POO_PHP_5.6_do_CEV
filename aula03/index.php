@@ -21,7 +21,7 @@
     
         echo "<br>";
         $c1->rabiscar();
-        $c1->tampar();
+        $c1->destampar();
         echo "<br>";
         print_r($c1);
     ?>
