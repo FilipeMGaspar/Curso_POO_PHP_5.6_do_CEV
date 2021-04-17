@@ -12,14 +12,7 @@
         <?php
             require_once "Caneta.php";
             $c1 = new Caneta();
-            $c1->setMarca("Uniball");
-            $c1->setCor("Preta");
-            $c1->setPonta(0.5);
-            $c1->setCarga(85);
-            $c1->tampar();
-            echo "<br>";
-            echo "Eu tenho uma caneta ". $c1->getMarca() ." de ponta ". $c1->getPonta();
-            echo "<br><br>";
+            
             print_r($c1);
 
         ?>
