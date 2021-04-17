@@ -15,6 +15,7 @@
             $c1->setMarca("Uniball");
             $c1->setCor("Preta");
             $c1->setPonta(0.5);
+            $c1->setCarga(85);
             echo "<br>";
             print_r($c1);
 

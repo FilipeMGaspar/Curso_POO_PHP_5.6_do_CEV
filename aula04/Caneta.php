@@ -31,7 +31,14 @@
         }
 
         //Métodos get e set para o atributo carga
+        public function setCarga($qtCarga){
+            $this->carga = $qtCarga;
+        }
+        public function getCarga(){
+            return $this->carga;
+        }
 
         //Métodos get e set para o atributo tampada
+        
     }
 ?>
