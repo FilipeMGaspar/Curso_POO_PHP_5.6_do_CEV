@@ -1,10 +1,10 @@
 <?php
     class Caneta{
-        public var $modelo;
-        public var $cor;
-        private var $ponta;
-        protected var $carga;
-        protected var $tampada;
+        public $modelo;
+        public $cor;
+        private $ponta;
+        protected $carga;
+        protected $tampada;
 
         public function rabiscar(){
             if($this->tampada == true){
