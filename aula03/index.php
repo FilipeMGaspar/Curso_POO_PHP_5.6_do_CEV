@@ -14,7 +14,10 @@
         $c1 = new Caneta;
         $c1->modelo = "BIC Cristal";
         $c1->cor = "Azul";
-        $c1->ponta = 0.5;
+       
+        // $c1->ponta = 0.5; //Não se pode modoficar um atributo privado só modificado dentro da própria classe
+        $c1->carga=99;
+        
         //var_dump($c1);
         print_r($c1);
 
