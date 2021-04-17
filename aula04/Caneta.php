@@ -7,7 +7,8 @@
         protected $tampada;
 
         //Método Construtor
-        public function __construct(){
+        //public function __construct(){
+        public function Caneta(){
             $this->cor = "Azul";
             $this->tampar();
         }
