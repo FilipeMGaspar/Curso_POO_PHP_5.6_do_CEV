@@ -6,6 +6,9 @@
         protected $carga;
         protected $tampada;
 
+        //Método Construtor
+        function 
+
         //Métodos get e set para o atributo marca
         public function setMarca($nMarca){
             $this->marca = $nMarca;
@@ -50,7 +53,7 @@
         public function tampar(){
             $this->setTampada(true);
         }
-        
+
         //Método para remover a tampa da caneta
         public function destampar(){
             $this->setTampada(false);
