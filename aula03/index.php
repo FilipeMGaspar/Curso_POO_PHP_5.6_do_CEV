@@ -16,8 +16,9 @@
         $c1->cor = "Azul";
        
         // $c1->ponta = 0.5; //Não se pode modoficar um atributo privado só modificado dentro da própria classe
-        $c1->carga=99;
-        
+        //$c1->carga=99; // Nao se pode modificar um atributo protegido
+        $c1->tampada = true;
+
         //var_dump($c1);
         print_r($c1);
 
