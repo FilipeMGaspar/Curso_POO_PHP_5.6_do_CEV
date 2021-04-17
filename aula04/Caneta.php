@@ -39,6 +39,11 @@
         }
 
         //Métodos get e set para o atributo tampada
-        
+        public function setTampada($tampa){
+            $this->tampada = $tampa;
+        }
+        public function getTampada(){
+            return $this->tampada;
+        }
     }
 ?>
