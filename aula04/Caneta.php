@@ -22,6 +22,10 @@
             return $this->cor;
         }
 
-        
+        //Métodos get e set para o atributo ponta
+
+        //Métodos get e set para o atributo carga
+
+        //Métodos get e set para o atributo tampada
     }
 ?>
