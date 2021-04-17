@@ -10,7 +10,8 @@
             $this->marca = $nMarca;
         }
         public getMarca(){
-            return $this->marca; 
+            echo "Marca: " . $this->marca . "<br>";
+           // return $this->marca; 
         }
 
     }
