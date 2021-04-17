@@ -7,6 +7,7 @@
     <title>Aula 03b​ - Configurando Visibilidade de Atributos e Métodos</title>
 </head>
 <body>
+    <pre>
     <?php
         require_once "Caneta.php";
 
@@ -16,5 +17,6 @@
         var_dump($c1);
 
     ?>
+    </pre>
 </body>
 </html>
