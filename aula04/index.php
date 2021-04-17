@@ -16,7 +16,7 @@
             $c1->setCor("Preta");
             $c1->setPonta(0.5);
             $c1->setCarga(85);
-            $c1->setTampada(true);
+            $c1->tampar();
             echo "<br>";
             print_r($c1);
 
