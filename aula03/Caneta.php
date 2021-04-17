@@ -6,7 +6,7 @@
         protected var $carga;
         protected var $tampada;
 
-        function rabiscar(){
+        public function rabiscar(){
             if($this->tampada == true){
                 echo "<p>ERRO! Não posso rabiscar!</p>";
             }else{
@@ -14,11 +14,11 @@
             }           
         }
 
-        function tampar(){
+        private function tampar(){
             $this->tampada = true;
         }
 
-        function destampar(){
+        private function destampar(){
             $this->tampada = false;
         }
     }
