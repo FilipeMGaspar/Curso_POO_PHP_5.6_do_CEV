@@ -11,7 +11,7 @@
     <pre>
         <?php
             require_once "Caneta.php";
-            $c1 = new Caneta();
+            $c1 = new Caneta("Melga", "Roxa", 0.7, 100);
             
             print_r($c1);
 
