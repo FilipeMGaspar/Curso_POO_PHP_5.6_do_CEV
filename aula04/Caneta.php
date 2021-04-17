@@ -45,7 +45,7 @@
         private function setTampada($tampa){
             $this->tampada = $tampa;
         }
-        private function getTampada(){
+        public function getTampada(){
             return $this->tampada;
         }
 
