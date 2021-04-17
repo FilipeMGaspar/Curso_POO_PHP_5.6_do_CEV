@@ -16,7 +16,7 @@
 
         //Métodos get e set para o atributo cor
         public function setCor($color){
-            $this->cor = color;
+            $this->cor = $color;
         }
         public function getCor(){
             return $this->cor;
