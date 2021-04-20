@@ -87,8 +87,8 @@
         }
 
         public function depositar($valorDeposito){//Método para depositar valores na conta
-            if($this->getStatusConta(){
-                $this->setSaldoConta($this->getSaldoConta() + $valorDeposito)
+            if($this->getStatusConta()){
+                $this->setSaldoConta($this->getSaldoConta() + $valorDeposito);
             }else{
                 echo "<p>Lamentamos! Mas o seu deposito não é possivel!</p>";
                 echo "<p>Ainda não tem uma conta no BANCO CEV!</p>";
