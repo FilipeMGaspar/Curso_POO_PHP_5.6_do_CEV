@@ -12,7 +12,7 @@
             require_once "ContaBanco.php";
 
             $tst = new ContaBanco();
-            $tst->abrirConta("CC");
+            $tst->abrirConta("CP");
             print_r($tst);
 
             // $tst->setNumConta(256);
