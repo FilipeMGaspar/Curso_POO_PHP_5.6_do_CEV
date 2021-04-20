@@ -74,7 +74,7 @@
                     echo "<p>O saldo da conta deverá ser de R$ 0</p>";
                 }elseif($this->getSaldoConta() < 0){
                     echo "<p>Impossivel fechar a Conta!</p>";
-                    echo "<p>A Conta com saldo negativo de de R$ ". ($this->getSaldoConta() * -1)."</p>";
+                    echo "<p>A sua conta está com saldo negativo de de R$ ". ($this->getSaldoConta() * -1)."</p>";
                     echo "<p>O saldo da conta deverá ser de R$ 0</p>";
                 }else{
                     $this.setStatusConta(false); //Conta Fechada

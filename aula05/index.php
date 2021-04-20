@@ -13,7 +13,7 @@
 
             $tst = new ContaBanco();
             $tst->abrirConta("CC");
-            $tst->setSaldoConta(0);
+            $tst->setSaldoConta(-50);
             $tst->fecharConta();
             //print_r($tst);
 
