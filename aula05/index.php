@@ -12,8 +12,8 @@
             require_once "ContaBanco.php";
 
             $tst = new ContaBanco();
-            //$tst->abrirConta("CC");
-            $tst->sacar(20);
+            $tst->abrirConta("CC");
+            $tst->sacar(60);
             print_r($tst);
 
             //Linha utilizadas para testes
