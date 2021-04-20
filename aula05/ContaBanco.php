@@ -53,5 +53,18 @@
         public function setStatusConta($status){
             $this->statusConta = $status;
         }
+
+        //Métodos 
+        public function abrirConta($tipoDeConta){ //Método para abrir conta
+            $this->setTipoConta($tipoDeConta);
+            $this->setStatusConta(true);
+
+            if($tipoDeConta === "CC"){
+                $this->setSaldoConta(50);
+            }elseif ($tipoDeConta === "CP"){
+                $this->setSaldoConta(150);
+            }
+        }
     }
+
 ?>
