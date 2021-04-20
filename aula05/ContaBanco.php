@@ -98,7 +98,13 @@
 
         public function sacar($sacaValor){ //Método para efectuar um levantamento na conta
             if($this->getStatusConta()){
-                
+                if($this->getSaldoConta() > 0 ){
+
+                }else{
+                    echo "<p>Levantamento pretendido: R$ " . $sacaValor . "</p>";
+                    echo "<p>Saldo Insuficiente!</p>";
+                    echo "<p>Saldo Disponivel: ". $tis->getSaldoConta() ."</p>"
+                }
             }else{
                 echo "<p>Lamentamos! Mas o seu levantamento não é possivel!</p>";
                 echo "<p>Ainda não tem uma conta no BANCO CEV!</p>";
