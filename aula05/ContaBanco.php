@@ -98,7 +98,7 @@
 
         public function sacar($sacaValor){ //Método para efectuar um levantamento na conta
             if($this->getStatusConta()){
-                if($this->getSaldoConta() > 0 ){
+                if($this->getSaldoConta() > $sacaValor){
 
                 }else{
                     echo "<p>Levantamento pretendido: R$ " . $sacaValor . "</p>";
