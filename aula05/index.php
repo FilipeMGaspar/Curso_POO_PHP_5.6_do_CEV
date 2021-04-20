@@ -13,7 +13,7 @@
 
             $tst = new ContaBanco();
             $tst->abrirConta("CC");
-            $tst->sacar(60);
+            $tst->sacar(20);
             print_r($tst);
 
             //Linha utilizadas para testes

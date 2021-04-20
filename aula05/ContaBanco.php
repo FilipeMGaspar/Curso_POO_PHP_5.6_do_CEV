@@ -99,10 +99,10 @@
         public function sacar($sacaValor){ //Método para efectuar um levantamento na conta
             if($this->getStatusConta()){
                 if($this->getSaldoConta() > $sacaValor){
-
-                }else{
-                    echo "<p>Levantamento pretendido: R$ " . $sacaValor . "</p>";
+                    $this->setSaldoConta($this->getSaldoConta() - $sacaValor);
+                }else{                    
                     echo "<p>Saldo Insuficiente!</p>";
+                    echo "<p>Levantamento pretendido: R$ " . $sacaValor . "</p>";
                     echo "<p>Saldo Disponivel: R$ ". $this->getSaldoConta() ."</p>";
                 }
             }else{
@@ -113,16 +113,6 @@
         }
     }
 /*
-	publico Metodo sacar(valor: Real) //Método para levantar dinheiro
-		se (getStatus() = verdadeiro) entao
-			se (getSaldo() > valor) entao
-				setSaldo(getSaldo() - valor)
-			senao
-				Escreva("Saldo insuficiente!")
-			FimSe
-		senao
-		  escreva("Imposivel levantar. Conta inexistente")	
-		FimSe	
-	FimMetodo
+
  */
 ?>
