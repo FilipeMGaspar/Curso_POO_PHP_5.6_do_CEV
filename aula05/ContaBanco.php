@@ -68,7 +68,9 @@
 
         public function fecharConta(){
             if($this->getStatusConta()){
-
+                if($this->getSaldoConta() > 0){
+                    echo "<p>A Conta com saldo de R$ ". $this->getSaldoConta()."</p>";
+                }
             }else{
                 echo "<p>Impossivel fechar a Conta!</p>";
                 echo "<p>Ainda não tem uma conta no BANCO CEV!</p>";

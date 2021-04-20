@@ -12,8 +12,8 @@
             require_once "ContaBanco.php";
 
             $tst = new ContaBanco();
-           //$tst->abrirConta("CC");
-           $tst->fecharConta();
+            $tst->abrirConta("CC");
+            $tst->fecharConta();
             print_r($tst);
 
             // $tst->setNumConta(256);
