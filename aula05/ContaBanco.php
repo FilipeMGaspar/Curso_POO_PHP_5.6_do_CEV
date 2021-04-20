@@ -10,8 +10,8 @@
         //Métodos especiais
         //Método Construtor
         public function ContaBanco(){
-            $this->statusConta = false; //Conta fechada
             $this->saldoConta = 0;
+            $this->statusConta = false; //Conta fechada            
         }
 
     }
