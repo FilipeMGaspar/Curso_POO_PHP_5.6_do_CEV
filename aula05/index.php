@@ -10,6 +10,9 @@
     <pre>
         <?php
             require_once "ContaBanco.php";
+
+            $tst = new ContaBanco();
+            print_r($tst);
         ?>
     </pre>
 </body>
