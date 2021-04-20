@@ -103,7 +103,7 @@
                 }else{
                     echo "<p>Levantamento pretendido: R$ " . $sacaValor . "</p>";
                     echo "<p>Saldo Insuficiente!</p>";
-                    echo "<p>Saldo Disponivel: ". $tis->getSaldoConta() ."</p>";
+                    echo "<p>Saldo Disponivel: R$ ". $this->getSaldoConta() ."</p>";
                 }
             }else{
                 echo "<p>Lamentamos! Mas o seu levantamento não é possivel!</p>";
