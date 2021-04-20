@@ -37,5 +37,13 @@
         public function setDonoConta($titularConta){
             $this->donoConta = $titularConta;
         }
+
+        //Método Get e set para o atributo saldoConta
+        public function getSaldoConta(){
+            return $this->saldoConta;
+        }
+        public function setSaldoConta($valor){
+            $this->saldoConta = $valor;
+        }
     }
 ?>
