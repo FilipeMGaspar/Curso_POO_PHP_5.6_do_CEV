@@ -12,11 +12,11 @@
             require_once "ContaBanco.php";
 
             $tst = new ContaBanco();
-            $tst->setNumConta(256);
-            $tst->setTipoConta("CC");
-            $tst->setDonoConta("Marineuza");
-            $tst->setSaldoConta(853.39);
-            $tst->setStatusConta(true);
+           // $tst->setNumConta(256);
+           // $tst->setTipoConta("CC");
+           // $tst->setDonoConta("Marineuza");
+           // $tst->setSaldoConta(853.39);
+           // $tst->setStatusConta(true);
             print_r($tst);
         ?>
     </pre>
