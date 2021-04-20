@@ -12,6 +12,7 @@
             require_once "ContaBanco.php";
 
             $tst = new ContaBanco();
+            $tst->setNumConta(256);
             print_r($tst);
         ?>
     </pre>
