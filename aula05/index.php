@@ -13,15 +13,16 @@
 
             $tst = new ContaBanco();
             $tst->abrirConta("CC");
+            $tst->setSaldoConta(0);
             $tst->fecharConta();
             //print_r($tst);
 
             // $tst->setNumConta(256);
-           // $tst->setTipoConta("CC");
-           // $tst->setDonoConta("Marineuza");
-           // $tst->setSaldoConta(853.39);
-           // $tst->setStatusConta(true);
-           // print_r($tst);
+            // $tst->setTipoConta("CC");
+            // $tst->setDonoConta("Marineuza");
+            // $tst->setSaldoConta(853.39);
+            // $tst->setStatusConta(true);
+            // print_r($tst);
         ?>
     </pre>
 </body>
