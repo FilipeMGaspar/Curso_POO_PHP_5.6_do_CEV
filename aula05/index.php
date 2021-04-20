@@ -1,4 +1,4 @@
-!   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-PT">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
             $tst = new ContaBanco();
             $tst->abrirConta("CC");
             $tst->fecharConta();
-            print_r($tst);
+            //print_r($tst);
 
             // $tst->setNumConta(256);
            // $tst->setTipoConta("CC");
