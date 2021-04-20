@@ -12,13 +12,13 @@
             require_once "ContaBanco.php";
 
             $tst = new ContaBanco();
-            $tst->abrirConta("CC");
-           
+            //$tst->abrirConta("CC");
+            $tst ->depositar(20);
             print_r($tst);
 
             //$tst->setSaldoConta(0);
             //$tst->fecharConta();
-            
+
             // $tst->setNumConta(256);
             // $tst->setTipoConta("CC");
             // $tst->setDonoConta("Marineuza");
