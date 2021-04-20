@@ -13,9 +13,9 @@
 
             $tst = new ContaBanco();
             $tst->abrirConta("CC");
-            $tst->setSaldoConta(-50);
+            $tst->setSaldoConta(0);
             $tst->fecharConta();
-            //print_r($tst);
+            print_r($tst);
 
             // $tst->setNumConta(256);
             // $tst->setTipoConta("CC");
