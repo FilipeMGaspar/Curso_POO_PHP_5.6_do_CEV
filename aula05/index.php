@@ -16,6 +16,7 @@
             $tst->setTipoConta("CC");
             $tst->setDonoConta("Marineuza");
             $tst->setSaldoConta(853.39);
+            $tst->setStatusConta(true);
             print_r($tst);
         ?>
     </pre>

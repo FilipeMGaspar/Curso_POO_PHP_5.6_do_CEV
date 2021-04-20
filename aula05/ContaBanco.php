@@ -45,5 +45,13 @@
         public function setSaldoConta($valor){
             $this->saldoConta = $valor;
         }
+
+        //Método Get e set para o atributo statusConta (true conta aberta) (false conta fechada)
+        public function getStatusConta(){
+            return $this->statusConta;
+        }
+        public function setStatusConta($status){
+            $this->statusConta = $status;
+        }
     }
 ?>
