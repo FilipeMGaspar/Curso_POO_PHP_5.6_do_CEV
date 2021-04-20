@@ -21,5 +21,13 @@
         public function setNumConta($nrConta){
             $this->numConta = $nrConta;
         }
+
+        //Método Get e set para o atributo tipoConta
+        public function getTipoConta(){
+            return $this->tipoConta;
+        }
+        public function setTipoConta($tipo){
+            $this->tipoConta = $tipo;
+        }
     }
 ?>

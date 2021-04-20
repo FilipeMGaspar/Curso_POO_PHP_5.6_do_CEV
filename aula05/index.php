@@ -13,6 +13,7 @@
 
             $tst = new ContaBanco();
             $tst->setNumConta(256);
+            $tst->setTipoConta("CC");
             print_r($tst);
         ?>
     </pre>
