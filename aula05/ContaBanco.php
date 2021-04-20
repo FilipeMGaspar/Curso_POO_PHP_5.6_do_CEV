@@ -111,8 +111,27 @@
                 echo "<p>Abra uma! É fácil, seguro e super rentavel!</p>"; 
             }
         }
-    }
-/*
 
- */
+        public function pagarMensal(){ //Método para pagamento mensal da manutenção de conta
+            if($this->getTipoConta() === "CC"){
+                $mensalidade = 12;
+            }elseif($this->getTipoConta() === "CP"){
+                $mensalidade = 20;
+            }
+
+            if($this->getStatusConta()){
+                if($this->getSaldoConta() > $mensalidade){
+                    $this->setSaldoConta($this->getSaldoConta() - $mensalidade);
+                }else{
+                    echo "<p>Impossivel pargar a mensalidade.</p>";
+                    echo "<p>Saldo Insuficiente!</p>";
+                    echo "<p>Mensalidade: R$ " . $sacaValor . "</p>";
+                    echo "<p>Saldo Disponivel: R$ ". $this->getSaldoConta() ."</p>"; 
+                }
+            }else{
+                echo "<p>Ainda não tem uma conta no BANCO CEV!</p>";
+                echo "<p>Abra uma! É fácil, seguro e super rentavel!</p>"; 
+            }
+        }
+    }
 ?>
