@@ -95,14 +95,27 @@
                 echo "<p>Abra uma! É fácil, seguro e super rentavel!</p>"; 
             }
         }
+
+        public function sacar($sacaValor){ //Método para efectuar um levantamento na conta
+            if($this->getStatusConta()){
+                
+            }else{
+                echo "<p>Lamentamos! Mas o seu levantamento não é possivel!</p>";
+                echo "<p>Ainda não tem uma conta no BANCO CEV!</p>";
+                echo "<p>Abra uma! É fácil, seguro e super rentavel!</p>"; 
+            }
+        }
     }
 /*
-	publico Metodo depositar(valor: Real)
-		se (status = verdadeiro) entao
-			//saldo = saldo + valor
-			setsaldo(getSaldo() + valor)
+	publico Metodo sacar(valor: Real) //Método para levantar dinheiro
+		se (getStatus() = verdadeiro) entao
+			se (getSaldo() > valor) entao
+				setSaldo(getSaldo() - valor)
+			senao
+				Escreva("Saldo insuficiente!")
+			FimSe
 		senao
-			Escreva("Imposivel Depositar. Conta inexistente!")
+		  escreva("Imposivel levantar. Conta inexistente")	
 		FimSe	
 	FimMetodo
  */
