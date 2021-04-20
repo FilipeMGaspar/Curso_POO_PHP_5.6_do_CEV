@@ -10,17 +10,19 @@
     <pre>
         <?php
             require_once "ContaBanco.php";
+            
+            
 
-            $tst = new ContaBanco();
-            $tst->abrirConta("CC");
-            $tst->sacar(50);
-            print_r($tst);
 
             //Linha utilizadas para testes
+            //$tst = new ContaBanco();            
+            //$tst->pagarMensal();
+            //print_r($tst);
+            //$tst->abrirConta("CC");
+            //$tst->sacar(50);
             //$tst ->depositar(20);    
             //$tst->setSaldoConta(0);
             //$tst->fecharConta();
-
             // $tst->setNumConta(256);
             // $tst->setTipoConta("CC");
             // $tst->setDonoConta("Marineuza");

@@ -125,7 +125,7 @@
                 }else{
                     echo "<p>Impossivel pargar a mensalidade.</p>";
                     echo "<p>Saldo Insuficiente!</p>";
-                    echo "<p>Mensalidade: R$ " . $sacaValor . "</p>";
+                    echo "<p>Mensalidade: R$ " . $mensalidade . "</p>";
                     echo "<p>Saldo Disponivel: R$ ". $this->getSaldoConta() ."</p>"; 
                 }
             }else{
