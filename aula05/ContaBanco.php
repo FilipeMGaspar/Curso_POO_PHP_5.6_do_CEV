@@ -65,6 +65,26 @@
                 $this->setSaldoConta(150);
             }
         }
-    }
 
+        public function fecharConta(){
+            if($this->getStatusConta()){
+
+            }else{
+                echo "<p>Impossivel fechar a Conta!</p>";
+                echo "<p>Ainda não tem uma conta no BANCO CEV!</p>";
+                echo "<p>Abra uma! É fácil, seguro e super rentavel!</p>";
+            }
+        }
+    }
+/*
+	publico Metodo fecharConta()
+		se(saldo > 0) entao
+			Escreva("Conta com Dinheiro")	
+		senao se (saldo < 0) entao
+			Escreva("Conta com Divida. Regularise!")
+		senao
+			setStatus(falso)
+		FimSe
+	FimMetodo
+*/
 ?>
