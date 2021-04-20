@@ -1,0 +1,53 @@
+Exemplo Prático
+ Conta bancária.
+- criar conta
+- saldo
+- depositar
+- tipo de conta
+- levantamento
+
+Conta poupança - Jubileu 300
+Conta correnta - Creuza 400
+
+Classe conta bancaria = ContaBanco
+ Atributos: 
+	numConta
+	tipo = "cc" ou "cp"   cc = conta corrente e cp = conta poupança
+	dono
+	saldo
+	status 
+
+ Métodos:
+	abrirConta()
+		status = true  //Conta aberta
+		tipo de conta
+		conta corrente ganha 50
+		conta poupança inicia a conta com 150
+
+	fecharConta()
+		saldo  = 0
+		e sem débito		
+		status = false //Conta fechada
+
+	depositar()
+		status = true
+
+
+	sacar()
+		status = true
+		saldo >= ao valor a sacar	
+		
+	pagarMensalidade()
+		conta corrente paga 12
+		conta poupança paga 20
+
+
+método construtor
+sempre que uma conta for criada
+status = false //Conta fechada
+saldo = 0
+
+
+
+	 
+
