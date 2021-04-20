@@ -7,6 +7,10 @@
     <title>Aula 05b​ - Exemplo Prático em PHP</title>
 </head>
 <body>
-    
+    <pre>
+        <?php
+            require_once "ContaBanco.php";
+        ?>
+    </pre>
 </body>
 </html>
