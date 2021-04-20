@@ -10,9 +10,29 @@
     <pre>
         <?php
             require_once "ContaBanco.php";
-            
-            
+            $conta01 = new ContaBanco();
+            $conta01->abrirConta("CP");
+            $conta01->setNumConta("001");
+            $conta01->setDonoConta("Josefredo");            
+            print_r($conta01);
 
+            echo "<br><br>";
+            $conta02 = new ContaBanco();
+            $conta02->abrirConta("CC");
+            $conta02->setNumConta(101);
+            $conta02->setDonoConta("Marivaldo D'Santos");
+            print_r($conta02);
+            echo "<br><p>PAGAMENTO DA MENSALIDADE</p>";
+            $conta02->pagarMensal();           
+            print_r($conta02);
+            echo "<br><p>Depósito de R$ 10</p>";
+            $conta02->depositar(10);
+            echo "<br>";
+            print_r($conta02);
+            echo "<br><p>Levantamento de R$ 50</p>";
+            $conta02->sacar(50);
+            echo "<br><p>Tentativa de Fechar a Conta</p>";
+            $conta02->fecharConta();
 
             //Linha utilizadas para testes
             //$tst = new ContaBanco();            
