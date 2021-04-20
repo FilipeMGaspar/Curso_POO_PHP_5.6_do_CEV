@@ -1,0 +1,166 @@
+Classe ContaBanco
+      //Atribustos
+	publico	numConta: Inteiro
+	protegido tipo: Caracter
+	privado	dono: Caracter
+	privado saldo: Real
+	privado status: Lógico
+
+  //Métodos Especiais
+     publico Metodo Construtor()
+	saldo = 0
+	status = falso //conta fechada
+     FimMetodo	
+
+     // Metodo get e set para o atributo numConta 
+     publico Metodo setNumConta(nrConta: Inteiro)
+	numConta = nrConta
+     FimMetodo		 
+		
+     publico Metodo getNumConta()
+	retorne numConta
+     FimMetodo	
+      
+     // Metodo get e set para o atributo tipo de conta	
+     publico Metodo setTipo(tipoConta: Caracter)
+	tipo = tipoConta
+     FimMetodo		 
+		
+     publico Metodo getTipo()
+	retorne tipo
+     FimMetodo
+
+     // Metodo get e set para o atributo dono	
+     publico Metodo setDono(donoConta: Caracter)
+	dono = donoConta
+     FimMetodo		 
+		
+     publico Metodo getDono()
+	retorne dono
+     FimMetodo
+
+     // Metodo get e set para o atributo saldo
+     publico Metodo setSaldo(saldoConta: Real)
+	saldo = saldoConta
+     FimMetodo		 
+		
+     publico Metodo getSaldo()
+	retorne saldo
+     FimMetodo
+
+     // Metodo get e set para o atributo status
+     publico Metodo setStatus(statusConta:Lógico)
+	status = statusConta
+     FimMetodo		 
+		
+     publico Metodo getStatus()
+	retorne status
+     FimMetodo
+
+
+    //Métodos
+	publico Metodo abrirConta(tipoConta: Caracter)
+		setTipo(tipoConta)
+		setStatus(verdadeiro)
+		
+		se(tipoConta = "CC") então
+			setSaldo(50)
+		senao se (tipoConta = "CP") entao
+			setSaldo(150)	
+		FimSe		
+	FimMetodo
+	
+	publico Metodo fecharConta()
+		se(saldo > 0) entao
+			Escreva("Conta com Dinheiro")	
+		senao se (saldo < 0) entao
+			Escreva("Conta com Divida. Regularise!")
+		senao
+			setStatus(falso)
+		FimSe
+	FimMetodo
+	
+	publico Metodo depositar(valor: Real)
+		se (status = verdadeiro) entao
+			//saldo = saldo + valor
+			setsaldo(getSaldo() + valor)
+		senao
+			Escreva("Imposivel Depositar. Conta inexistente!")
+		FimSe	
+	FimMetodo
+
+	publico Metodo sacar(valor: Real) //Método para levantar dinheiro
+		se (getStatus() = verdadeiro) entao
+			se (getSaldo() > valor) entao
+				setSaldo(getSaldo() - valor)
+			senao
+				Escreva("Saldo insuficiente!")
+			FimSe
+		senao
+		  escreva("Imposivel levantar. Conta inexistente")	
+		FimSe	
+	FimMetodo
+
+	publico Metodo pagarMensalidade()
+		var v: Real
+		
+		se(tipoConta = "CC") então
+			v = 12
+		senao se (tipoConta = "CP") entao
+			v = 20
+		FimSe	
+	
+		se (status = verdadeiro) entao
+			se(saldo > v) entao
+				saldo = saldo - v
+			senao
+				Escreva("Saldo insuficiente")		
+			FimSe
+		senao
+		  Escreva("Impossivel pagar Mensalidade.")	
+		FimSe
+	FimMetodo
+
+FimClasse
+
+
+
+
+
+Classe conta bancaria = ContaBanco
+ Atributos: 
+	numConta
+	tipo = "cc" ou "cp"   cc = conta corrente e cp = conta poupança
+	dono
+	saldo
+	status 
+
+ Métodos:
+	abrirConta()
+		status = true  //Conta aberta
+		tipo de conta
+		conta corrente ganha 50
+		conta poupança inicia a conta com 150
+
+	fecharConta()
+		saldo  = 0
+		e sem débito		
+		status = false //Conta fechada
+
+	depositar()
+		status = true
+
+
+	sacar()
+		status = true
+		saldo >= ao valor a sacar	
+		
+	pagarMensalidade()
+		conta corrente paga 12
+		conta poupança paga 20
+
+
+método construtor
+sempre que uma conta for criada
+status = false //Conta fechada
+saldo = 0
