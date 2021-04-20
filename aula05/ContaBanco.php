@@ -66,7 +66,7 @@
             }
         }
 
-        public function fecharConta(){
+        public function fecharConta(){ //Método para fechar a conta
             if($this->getStatusConta()){
                 if($this->getSaldoConta() > 0){
                     echo "<p>Impossivel fechar a Conta!</p>";
@@ -85,16 +85,25 @@
                 echo "<p>Abra uma! É fácil, seguro e super rentavel!</p>";
             }
         }
+
+        public function depositar($valorDeposito){//Método para depositar valores na conta
+            if($this->getStatusConta(){
+                $this->setSaldoConta($this->getSaldoConta() + $valorDeposito)
+            }else{
+                echo "<p>Lamentamos! Mas o seu deposito não é possivel!</p>";
+                echo "<p>Ainda não tem uma conta no BANCO CEV!</p>";
+                echo "<p>Abra uma! É fácil, seguro e super rentavel!</p>"; 
+            }
+        }
     }
 /*
-	publico Metodo fecharConta()
-		se(saldo > 0) entao
-			Escreva("Conta com Dinheiro")	
-		senao se (saldo < 0) entao
-			Escreva("Conta com Divida. Regularise!")
+	publico Metodo depositar(valor: Real)
+		se (status = verdadeiro) entao
+			//saldo = saldo + valor
+			setsaldo(getSaldo() + valor)
 		senao
-			setStatus(falso)
-		FimSe
+			Escreva("Imposivel Depositar. Conta inexistente!")
+		FimSe	
 	FimMetodo
-*/
+ */
 ?>
