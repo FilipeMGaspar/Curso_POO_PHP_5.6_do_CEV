@@ -14,6 +14,7 @@
             $tst = new ContaBanco();
             $tst->setNumConta(256);
             $tst->setTipoConta("CC");
+            $tst->setDonoConta("Marineuza");
             print_r($tst);
         ?>
     </pre>

@@ -29,5 +29,13 @@
         public function setTipoConta($tipo){
             $this->tipoConta = $tipo;
         }
+
+        //Método Get e set para o atributo donoConta (Nome do 1º titular)
+        public function getDonoConta(){
+            return $this->donoConta;
+        }
+        public function setDonoConta($titularConta){
+            $this->donoConta = $titularConta;
+        }
     }
 ?>
