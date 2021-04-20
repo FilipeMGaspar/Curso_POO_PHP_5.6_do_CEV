@@ -98,7 +98,7 @@
 
         public function sacar($sacaValor){ //Método para efectuar um levantamento na conta
             if($this->getStatusConta()){
-                if($this->getSaldoConta() > $sacaValor){
+                if($this->getSaldoConta() >= $sacaValor){
                     $this->setSaldoConta($this->getSaldoConta() - $sacaValor);
                 }else{                    
                     echo "<p>Saldo Insuficiente!</p>";
@@ -120,7 +120,7 @@
             }
 
             if($this->getStatusConta()){
-                if($this->getSaldoConta() > $mensalidade){
+                if($this->getSaldoConta() >= $mensalidade){
                     $this->setSaldoConta($this->getSaldoConta() - $mensalidade);
                 }else{
                     echo "<p>Impossivel pargar a mensalidade.</p>";
