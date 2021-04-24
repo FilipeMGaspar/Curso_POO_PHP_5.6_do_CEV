@@ -61,15 +61,19 @@
         }
 
         public  function maisVolume() {
-            
+            if($this->getLigado()){
+                $this->setVolume($this->getVolume + 5);
+            }
         }
 
         public  function menosVolume(){
-
+            if($this->getLigado()){
+                $this->setVolume($this->getVolume - 5);
+            }
         }
 
         public  function ligarMudo(){
-
+            
         }
 
         public  function desligarMudo(){
