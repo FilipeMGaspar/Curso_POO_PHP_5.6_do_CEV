@@ -1,6 +1,6 @@
 <?php
 
-    class ControleRemoto{
+    class ControleRemoto {
         //Atributos
         private $volume;
         private $ligado;
@@ -33,7 +33,5 @@
         public function setTocando($reproducao){
             $this->tocando = $reproducao;
         }
-
-
     }
 ?>
