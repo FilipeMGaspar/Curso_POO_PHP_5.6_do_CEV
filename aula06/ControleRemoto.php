@@ -41,11 +41,11 @@
             $this->setLigado(true);
         }
 
-        public  function desligar() {
+        public function desligar() {
             $this->setLigado(false);
         }
 
-        public  function abriMenu() {
+        public function abriMenu() {
             echo "<p>Está ligado?" . ($this->getLigado() ? "SIM" : "NÃO") . "</p>";
             echo"<p>Está tocando?" . ($this->getTocando() ? "SIM" : "NÃO" ). "</p>";
             echo "<p>Volume: ".$this->getVolume()."<p>";
@@ -56,41 +56,41 @@
 
         }
 
-        public  function fecharMenu() {
+        public function fecharMenu() {
             echo "<p>Fechando o menu....</p>";
         }
 
-        public  function maisVolume() {
+        public function maisVolume() {
             if($this->getLigado()){
                 $this->setVolume($this->getVolume() + 5);
             }
         }
 
-        public  function menosVolume(){
+        public function menosVolume(){
             if($this->getLigado()){
                 $this->setVolume($this->getVolume() - 5);
             }
         }
 
-        public  function ligarMudo(){
+        public function ligarMudo(){
             if($this->getLigado() && $this->getVolume() > 0){
                 $this->setVolume(0);
             }
         }
 
-        public  function desligarMudo(){
+        public function desligarMudo(){
             if($this->getLigado() && $this->getVolume() == 0){
                 $this->setVolume(50);
             }
         }
 
-        public  function play(){
+        public function play(){
             if($this->getLigado() && !($this->getTocando())){
                 $this->setTocando(true);
             }
         }
 
-        public  function pause(){
+        public function pause(){
             if($this->getLigado() && $this->getTocando()){
                 $this->setTocando(false);
             }
