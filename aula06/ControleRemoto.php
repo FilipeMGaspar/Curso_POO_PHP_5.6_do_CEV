@@ -1,6 +1,7 @@
 <?php
+    require_once "Controlador.php";
 
-    class ControleRemoto {
+    class ControleRemoto implements Controlador{
         //Atributos
         private $volume;
         private $ligado;
