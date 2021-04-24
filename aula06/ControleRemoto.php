@@ -62,22 +62,26 @@
 
         public  function maisVolume() {
             if($this->getLigado()){
-                $this->setVolume($this->getVolume + 5);
+                $this->setVolume($this->getVolume() + 5);
             }
         }
 
         public  function menosVolume(){
             if($this->getLigado()){
-                $this->setVolume($this->getVolume - 5);
+                $this->setVolume($this->getVolume() - 5);
             }
         }
 
         public  function ligarMudo(){
-            
+            if($this->getLigado() && &this->getVolume() > 0){
+                $this->setVolume(0);
+            }
         }
 
         public  function desligarMudo(){
-
+            if($this->getLigado() && &this->getVolume() == 0){
+                $this->setVolume(50);
+            }
         }
 
         public  function play(){
