@@ -8,6 +8,8 @@
 </head>
 <body>
     <?php
+         require_once "ControleRemoto.php";
+
          
     ?>
 </body>
