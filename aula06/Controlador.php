@@ -11,4 +11,3 @@
         public abstract function play();
         public abstract function pause();
     }
-?>
