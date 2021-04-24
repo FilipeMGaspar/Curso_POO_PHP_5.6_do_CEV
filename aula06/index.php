@@ -7,6 +7,8 @@
     <title>Aula 06b​ - Encapsulamento</title>
 </head>
 <body>
-    
+    <?php
+        
+    ?>
 </body>
 </html>
