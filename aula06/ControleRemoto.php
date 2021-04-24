@@ -46,7 +46,9 @@
         }
 
         public  function abriMenu() {
-
+            echo "<p>Está ligado?" . ($this->getLigado() ? "SIM" : "NÃO") . "</p>"
+            echo"<p>Está tocando?" . ($this->getTocando() ? "SIM" : "NÃO" ). "</p>";
+            
         }
 
         public  function fecharMenu() {
