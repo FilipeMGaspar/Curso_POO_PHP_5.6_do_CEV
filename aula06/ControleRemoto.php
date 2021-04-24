@@ -34,5 +34,47 @@
         public function setTocando($reproducao){
             $this->tocando = $reproducao;
         }
+
+
+        //Métodos abstratos
+        public function ligar() {
+
+        }
+
+        public  function desligar() {
+
+        }
+
+        public  function abriMenu() {
+
+        }
+
+        public  function fecharMenu() {
+
+        }
+
+        public  function maisVolum() {
+
+        }
+
+        public  function menosVolume(){
+
+        }
+
+        public  function ligarMudo(){
+
+        }
+
+        public  function desligarMudo(){
+
+        }
+
+        public  function play(){
+
+        }
+        
+        public  function pause(){
+
+        }
     }
 ?>
