@@ -73,23 +73,27 @@
         }
 
         public  function ligarMudo(){
-            if($this->getLigado() && &this->getVolume() > 0){
+            if($this->getLigado() && $this->getVolume() > 0){
                 $this->setVolume(0);
             }
         }
 
         public  function desligarMudo(){
-            if($this->getLigado() && &this->getVolume() == 0){
+            if($this->getLigado() && $this->getVolume() == 0){
                 $this->setVolume(50);
             }
         }
 
         public  function play(){
-
+            if($this->getLigado() && !($this->getTocando())){
+                $this->setTocando(true);
+            }
         }
 
         public  function pause(){
-
+            if($this->getLigado() && $this->getTocando()){
+                $this->setTocando(false);
+            }
         }
     }
 ?>
