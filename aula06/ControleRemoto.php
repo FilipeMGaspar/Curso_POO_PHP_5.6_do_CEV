@@ -38,11 +38,11 @@
 
         //Métodos abstratos
         public function ligar() {
-
+            $this->setLigado(true);
         }
 
         public  function desligar() {
-
+            $this->setLigado(false);
         }
 
         public  function abriMenu() {
@@ -53,7 +53,7 @@
 
         }
 
-        public  function maisVolum() {
+        public  function maisVolume() {
 
         }
 
@@ -72,7 +72,7 @@
         public  function play(){
 
         }
-        
+
         public  function pause(){
 
         }
