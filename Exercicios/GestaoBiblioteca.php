@@ -1,7 +1,7 @@
 <?php
 require_once 'Biblioteca.php';
 
-class GestaoBiblioteca {
+class GestaoBiblioteca implements Biblioteca {
     private $nomeAluno;
     private $nomeAutor;
     private $numemprestimo;
@@ -38,7 +38,25 @@ class GestaoBiblioteca {
     public function setEmprestado($emprestado) {
         $this->emprestado = $emprestado;
     }
-    
+
+   
     //Métodos abstractos
+    public function emprestarLivro() {
+        
+    }
+
+    public function reberLivroEmprestado() {
+        
+    }
+
+    public function registarAluno() {
+        
+    }
+
+    public function registarLivro() {
+        
+    }
+
+    
     
 }
