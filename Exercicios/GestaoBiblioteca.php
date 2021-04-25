@@ -27,7 +27,7 @@ class GestaoBiblioteca implements Biblioteca {
    
     //Métodos abstractos
     public function emprestarLivro() {
-        $this->setEmprestado(true);
+        $this->setEmprestado(false);
     }
 
     public function reberLivroEmprestado() {
