@@ -1,6 +1,6 @@
 <?php
     interface Controlador {
-        public abstract function ligar();
+        public function ligar();
         /*public abstract function ligar();
         public abstract function desligar();
         public abstract function abriMenu();
