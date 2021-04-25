@@ -2,31 +2,17 @@
 require_once 'Biblioteca.php';
 
 class GestaoBiblioteca implements Biblioteca {
-    private $nomeAluno;
-    private $nomeAutor;
     private $numemprestimo;
     private $emprestado;
     
     public function __construct() {
         $this->emprestado = false;
-    }
-    
-    public function getNomeAluno() {
-        return $this->nomeAluno;
-    }
-    public function setNomeAluno($nomeAluno) {
-        $this->nomeAluno = $nomeAluno;
-    }
-
-    public function getNomeAutor() {
-        return $this->nomeAutor;
-    }
-    public function setNomeAutor($nomeAutor) {
-        $this->nomeAutor = $nomeAutor;
+        $this->numemprestimo = 0;
     }
 
     public function getNumemprestimo() {
         return $this->numemprestimo;
+        $this->setNumemprestimo($this->getNumemprestimo() + 1);
     }
      public function setNumemprestimo($numemprestimo) {
         $this->numemprestimo = $numemprestimo;
@@ -42,21 +28,12 @@ class GestaoBiblioteca implements Biblioteca {
    
     //Métodos abstractos
     public function emprestarLivro() {
-        
+        $this->setEmprestado(true);
     }
 
     public function reberLivroEmprestado() {
-        
-    }
-
-    public function registarAluno() {
-        
-    }
-
-    public function registarLivro() {
-        
-    }
-
-    
-    
+        if($this->getEmprestado()){
+            $this->setEmprestado(false);
+        }   
+    }      
 }
