@@ -14,8 +14,11 @@
          echo "<h2>Testando uma Interface!</h2>";
          $teste = new ControleRemoto();
 
-         $teste->ligar();
+        // $teste->ligar();
          $teste->abrirMenu();
+         //$teste->pause();
+
+         echo "<br><br>";
          print_r($teste);
     ?>
 </pre>

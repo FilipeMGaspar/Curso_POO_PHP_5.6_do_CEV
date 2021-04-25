@@ -47,8 +47,8 @@
 
         public function abrirMenu() {
             echo "<h3> ..: MENU :.. </h3>";
-            echo "<p>Está ligado?" . ($this->getLigado() ? "SIM" : "NÃO") . "</p>";
-            echo"<p>Está tocando?" . ($this->getTocando() ? "SIM" : "NÃO" ). "</p>";
+            echo "<p>Está ligado? " . ($this->getLigado() ? "SIM" : "NÃO") . "</p>";
+            echo"<p>Está tocando? " . ($this->getTocando() ? "SIM" : "NÃO" ). "</p>";
             echo "<p>Volume: ".$this->getVolume()."<p>";
             for($i = 0; $i <= $this->getVolume(); $i += 10){
                 echo "|";
