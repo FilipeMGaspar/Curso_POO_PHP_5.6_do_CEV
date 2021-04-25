@@ -72,6 +72,8 @@
         public function menosVolume(){
             if($this->getLigado()){
                 $this->setVolume($this->getVolume() - 5);
+            }else{
+                echo "<p>ERRO não posso diminuir o volume. Tv desligada!</p>";
             }
         }
 
