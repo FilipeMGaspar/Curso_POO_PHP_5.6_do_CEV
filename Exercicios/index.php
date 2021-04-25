@@ -6,8 +6,9 @@
     </head>
     <body>
         <?php
-      
-        // put your code here
+            require_once 'Gestaobiblioteca.php';
+            $eb = new GestaoBiblioteca();
+            
         ?>
     </body>
 </html>

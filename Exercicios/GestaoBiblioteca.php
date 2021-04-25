@@ -10,21 +10,20 @@ class GestaoBiblioteca implements Biblioteca {
         $this->numemprestimo = 0;
     }
 
-    public function getNumemprestimo() {
+    private function getNumemprestimo() {
         return $this->numemprestimo;
         $this->setNumemprestimo($this->getNumemprestimo() + 1);
     }
-     public function setNumemprestimo($numemprestimo) {
+    private function setNumemprestimo($numemprestimo) {
         $this->numemprestimo = $numemprestimo;
     }
     
-    public function getEmprestado() {
+    private function getEmprestado() {
         return $this->emprestado;
     }
-    public function setEmprestado($emprestado) {
+    private function setEmprestado($emprestado) {
         $this->emprestado = $emprestado;
     }
-
    
     //Métodos abstractos
     public function emprestarLivro() {
