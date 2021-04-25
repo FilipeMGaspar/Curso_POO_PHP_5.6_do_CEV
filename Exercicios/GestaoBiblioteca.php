@@ -12,7 +12,6 @@ class GestaoBiblioteca implements Biblioteca {
 
     private function getNumemprestimo() {
         return $this->numemprestimo;
-        $this->setNumemprestimo($this->getNumemprestimo() + 1);
     }
     private function setNumemprestimo($numemprestimo) {
         $this->numemprestimo = $numemprestimo;
@@ -23,6 +22,7 @@ class GestaoBiblioteca implements Biblioteca {
     }
     private function setEmprestado($emprestado) {
         $this->emprestado = $emprestado;
+        $this->setNumemprestimo($this->getNumemprestimo() + 1);
     }
    
     //Métodos abstractos
