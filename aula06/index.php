@@ -7,6 +7,7 @@
     <title>Aula 06b​ - Encapsulamento</title>
 </head>
 <body>
+<pre>
     <?php
          require_once "ControleRemoto.php";
          
@@ -16,5 +17,6 @@
          $teste->ligar();
          print_r($teste);
     ?>
+</pre>
 </body>
 </html>
