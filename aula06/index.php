@@ -16,7 +16,7 @@
 
         $teste->ligar();
         $teste->abrirMenu();
-         //$teste->pause();
+        $teste->maisVolume();
 
          echo "<br><br>";
          print_r($teste);
