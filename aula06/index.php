@@ -10,6 +10,11 @@
     <?php
          require_once "ControleRemoto.php";
          
+         echo "<h2>Testando uma Interface!</h2>";
+         $teste = new ControleRemoto();
+
+         $teste->ligar();
+         print_r($teste);
     ?>
 </body>
 </html>
