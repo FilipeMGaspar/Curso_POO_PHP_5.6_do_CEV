@@ -14,24 +14,24 @@
             $this->tocando = false;
         }    
 
-        public function getVolume(){
+        private function getVolume(){
             return $this->volume;
         }
-        public function setVolume($vol){
+        private function setVolume($vol){
             $this->volume = $vol;
         }   
 
-        public function getLigado(){
+        private function getLigado(){
             return $this->ligado;
         }
-        public function setLigado($power){
+        private function setLigado($power){
             $this->ligado = $power;
         }
 
-        public function getTocando(){
+        private function getTocando(){
             return $this->tocando;
         }
-        public function setTocando($reproducao){
+        private function setTocando($reproducao){
             $this->tocando = $reproducao;
         }
 
