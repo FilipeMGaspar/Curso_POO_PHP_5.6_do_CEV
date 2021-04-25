@@ -15,6 +15,7 @@
          $teste = new ControleRemoto();
 
          $teste->ligar();
+         $teste->abrirMenu();
          print_r($teste);
     ?>
 </pre>
