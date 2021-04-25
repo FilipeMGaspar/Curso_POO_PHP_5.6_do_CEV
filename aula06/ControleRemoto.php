@@ -45,7 +45,7 @@
             $this->setLigado(false);
         }
 
-        public function abriMenu() {
+        public function abrirMenu() {
             echo "<p>Está ligado?" . ($this->getLigado() ? "SIM" : "NÃO") . "</p>";
             echo"<p>Está tocando?" . ($this->getTocando() ? "SIM" : "NÃO" ). "</p>";
             echo "<p>Volume: ".$this->getVolume()."<p>";
