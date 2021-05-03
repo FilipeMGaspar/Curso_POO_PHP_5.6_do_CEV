@@ -1,0 +1,21 @@
+Relacionamento entre Classes
+
+	Ultra emoji combat
+		lutra entre emojis
+
+UEC
+ nome
+ nacionalidade
+ idade
+ altura 
+ peso
+ categoria
+ vitorias
+ derrotas
+ empates
+
+
+Abstração é considerar somente o que importa num determinado exercicio ou situação.
+
+
+
