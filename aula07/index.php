@@ -31,7 +31,10 @@
                 echo '<br>';
                // $l[3]->apresentar();
                 $l[3]->status();
-                    
+                
+                $l[4] = new Lutador("UfoCobol", "Brasil", 37, 1.70, 119.3, 5, 4, 3);
+                echo '<br>';
+                $l[4]->apresentar();
                
                 
             ?>
