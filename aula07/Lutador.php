@@ -121,8 +121,12 @@ class Lutador {
         echo '<p>Ganhou: '.$this->getVitorias().'</p>'; 
         echo '<p>Perdeu: '.$this->getDerrotas().'</p>';
         echo '<p>Empatou: '.$this->getEmpates().'</p>';
-         
-         //echo '<p>'.$this->getIdade().' </p>';
+    }
+    
+    public function status() {
+        echo "<p>".$this->getNome().", é um peso ".$this->getCategoria();
+        echo ", ".$this->getVitorias()." Vitórias, ".$this->getDerrotas()." Derrotas, ";
+        echo $this->getEmpates()." Empates </p>";
     }
 }
 /*
