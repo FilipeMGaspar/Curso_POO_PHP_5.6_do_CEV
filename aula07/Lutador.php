@@ -63,7 +63,12 @@ class Lutador {
         return $this->categoria;
     }
     private function setCategoria() {
-        $this->categoria = "Inválida";
+        if($this->peso < 52.2){
+           $this->categoria = "Inválida"; 
+        }elseif ($this->peso >= 70.3){
+            $this->categoria = "Leve";
+        }
+        
     }
 
     public function getVitorias() {
