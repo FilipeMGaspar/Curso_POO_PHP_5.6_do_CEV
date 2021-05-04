@@ -67,6 +67,12 @@ class Lutador {
            $this->categoria = "Inválida"; 
         }elseif ($this->peso >= 70.3){
             $this->categoria = "Leve";
+        }elseif ($this->peso <= 83.9) {
+            $this->categoria = "Médio";
+        }elseif($this->peso <= 120.2){
+            $this->categoria = "Pesado";
+        }else{
+            $this->categoria = "Inválida"; 
         }
         
     }
