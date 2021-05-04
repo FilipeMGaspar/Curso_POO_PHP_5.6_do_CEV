@@ -27,7 +27,10 @@
                 echo '<br>';
                 $l[2]->apresentar();
                 
-                $l[3] = new Lutador("Dead Code", $nacionalidade, $idade, $altura, $peso, $vitorias, $derrotas, $empates)
+                $l[3] = new Lutador("Dead Code", "Austrália", 28, 1.93, 81.6, 13, 0, 2);
+                echo '<br>';
+               // $l[3]->apresentar();
+                $l[3]->status();
                     
                
                 
