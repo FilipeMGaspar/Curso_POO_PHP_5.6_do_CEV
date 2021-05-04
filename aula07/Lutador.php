@@ -126,7 +126,7 @@ class Lutador {
     public function status() {
         echo "<p>".$this->getNome().", é um peso ".$this->getCategoria();
         echo ", ".$this->getVitorias()." Vitórias, ".$this->getDerrotas()." Derrotas, ";
-        echo $this->getEmpates()." Empates </p>";
+        echo $this->getEmpates()." Empates! </p>";
     }
 }
 /*
