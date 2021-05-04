@@ -117,10 +117,10 @@ class Lutador {
         echo '<p>Nacionalidade: '.$this->getNacionalidade().'</p>';
         echo '<p>Idade: '.$this->getIdade().' Anos</p>';
         echo '<p>'.$this->getAltura().' m de altura.</p>';
-        echo '<p>Pesando: '.$this. $this->getPeso().' Kg</p>';
-        echo '<p>Ganhou: '.'</p>'; 
-        echo '<p>Perdeu: '.'</p>';
-        echo '<p>Empatou: '.'</p>';
+        echo '<p>Pesando: '.$this->getPeso().' Kg</p>';
+        echo '<p>Ganhou: '.$this->getVitorias().'</p>'; 
+        echo '<p>Perdeu: '.$this->getDerrotas().'</p>';
+        echo '<p>Empatou: '.$this->getEmpates().'</p>';
          
          //echo '<p>'.$this->getIdade().' </p>';
     }
