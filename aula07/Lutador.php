@@ -100,9 +100,16 @@ class Lutador {
     
     
     //Métodos ganhar, perder empatar 
+    public function ganharLuta() {
+        $this->setVitorias($this->getVitorias() + 1);
+    }
     
     public function perderLuta() {
         $this->setDerrotas($this->getDerrotas() + 1);
+    }
+    
+    public function empatarLuta() {
+        $this->setEmpates($this->getEmpates() + 1);
     }
 }
 /*
