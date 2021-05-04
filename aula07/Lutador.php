@@ -17,7 +17,7 @@ class Lutador {
         $this->nacionalidade = $nacionalidade;
         $this->idade = $idade;
         $this->altura = $altura;
-        $this->peso = $peso;
+        $this->setPeso($peso);
         $this->vitorias = $vitorias;
         $this->derrotas = $derrotas;
         $this->empates = $empates;
@@ -56,13 +56,14 @@ class Lutador {
     }
     public function setPeso($peso) {
         $this->peso = $peso;
+        $this->setCategoria();
     }
 
     public function getCategoria() {
         return $this->categoria;
     }
-    public function setCategoria($categoria) {
-        $this->categoria = $categoria;
+    private function setCategoria() {
+        $this->categoria = "Inválida";
     }
 
     public function getVitorias() {
