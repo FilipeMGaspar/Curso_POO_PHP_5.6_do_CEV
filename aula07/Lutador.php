@@ -97,6 +97,13 @@ class Lutador {
     public function setEmpates($empates) {
         $this->empates = $empates;
     }
+    
+    
+    //Métodos ganhar, perder empatar 
+    
+    public function perderLuta() {
+        $this->setDerrotas($this->getDerrotas() + 1);
+    }
 }
 /*
    
