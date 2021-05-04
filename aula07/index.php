@@ -20,7 +20,17 @@
                 $l[0]->apresentar();
                 
                 $l[1] = new Lutador("Putscript", "Brasil", 29, 1.68, 57.8, 14, 2, 3);
+                echo '<br>';
                 $l[1]->status();
+                
+                $l[2] = new Lutador("Snapshadow", "EUA", 35, 1.65, 80.9, 12, 2, 1);
+                echo '<br>';
+                $l[2]->apresentar();
+                
+                $l[3] = new Lutador("Dead Code", $nacionalidade, $idade, $altura, $peso, $vitorias, $derrotas, $empates)
+                    
+               
+                
             ?>
         </pre>    
     </body>
