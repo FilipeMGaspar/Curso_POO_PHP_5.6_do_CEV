@@ -115,14 +115,14 @@ class Lutador {
     public function apresentar() {
         echo '<p>Nome: '.$this->getNome().'</p>';
         echo '<p>Nacionalidade: '.$this->getNacionalidade().'</p>';
-        echo '<p>'.'</p>';
-        echo '<p>'.'</p>';
-        echo '<p>'.'</p>';
+        echo '<p>Idade: '.$this->getIdade().' Anos</p>';
+        echo '<p>'.$this->getAltura().' m de altura.</p>';
         echo '<p>'.'</p>';
         echo '<p>'.'</p>'; 
         echo '<p>'.'</p>';
         echo '<p>'.'</p>';
-             
+         
+         //echo '<p>'.$this->getIdade().' </p>';
     }
 }
 /*
