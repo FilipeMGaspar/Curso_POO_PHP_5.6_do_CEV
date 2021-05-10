@@ -27,12 +27,14 @@ class Luta {
             $this->desafiante->apresentar();
             $vencedor = rand(0,2);//Número aleatório 0 1 2
             switch ($vencedor){
-                case 0:
-                    
+                case 0: //Empate
+                    echo "<h3>Empate!</h3>";
+                    $this->desafiado->empatarLuta();
+                    $this-$this->desafiante->empatarLuta();
                     break;
-                case 1: 
+                case 1: //Desefiado vence
                     break;
-                case 2:
+                case 2: //Desafiante vence
                     break;
             }
         } else {
