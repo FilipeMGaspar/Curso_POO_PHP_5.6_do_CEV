@@ -22,7 +22,11 @@ class Luta {
     }
     
     public function lutar(){
-        
+        if($this->aprovada){
+            
+        } else {
+            echo "<p></p>";
+        }
     }
     
     //Métodos Getters e Setters
