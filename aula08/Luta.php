@@ -23,9 +23,12 @@ class Luta {
     
     public function lutar(){
         if($this->aprovada){
+            $this->desafiado->apresentar();
+            $this->desafiante->apresentar();
+            $vencedor = rand(0,2);//Número aleatório 0 1 2
             
         } else {
-            echo "<p></p>";
+            echo "<h3>A Luta não pode acontecer!</h3>";
         }
     }
     
