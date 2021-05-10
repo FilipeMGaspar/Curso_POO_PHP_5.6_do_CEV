@@ -9,6 +9,11 @@ class Luta {
     private $aprovada;
     
     //Métodos Públicos
+    public function marcarLuta(){
+        
+    }
     
-    
+    public function lutar(){
+        
+    }
 }
