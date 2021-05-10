@@ -26,7 +26,15 @@ class Luta {
             $this->desafiado->apresentar();
             $this->desafiante->apresentar();
             $vencedor = rand(0,2);//Número aleatório 0 1 2
-            
+            switch ($vencedor){
+                case 0:
+                    
+                    break;
+                case 1: 
+                    break;
+                case 2:
+                    break;
+            }
         } else {
             echo "<h3>A Luta não pode acontecer!</h3>";
         }
