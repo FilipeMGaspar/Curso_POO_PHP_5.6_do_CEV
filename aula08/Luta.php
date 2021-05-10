@@ -9,8 +9,10 @@ class Luta {
     private $aprovada;
     
     //Métodos Públicos
-    public function marcarLuta(){
-        
+    public function marcarLuta($l1, $l2){
+        if($l1.getCategoria() == $l2.getCategoria() ){
+            
+        }
     }
     
     public function lutar(){
