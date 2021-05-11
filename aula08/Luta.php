@@ -24,6 +24,7 @@ class Luta {
     public function lutar(){
         if($this->aprovada){
             $this->desafiado->apresentar();
+            echo '<br>';
             $this->desafiante->apresentar();
             $vencedor = rand(0,2);//Número aleatório 0 1 2
             switch ($vencedor){
@@ -38,7 +39,7 @@ class Luta {
                     $this->desafiante->perderLuta();
                     break;
                 case 2: //Desafiante vence
-                    echo "<h3>E o vencedor é <strong>".$this->desafiante->getNome()."</strong></h3>";
+                    echo "<h3>E o vencedor é o <strong>".$this->desafiante->getNome()."</strong></h3>";
                     $this->desafiante->ganharLuta();
                     $this->desafiado->ganharLuta();
                     break;
