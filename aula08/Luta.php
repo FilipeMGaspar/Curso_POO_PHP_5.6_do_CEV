@@ -33,11 +33,12 @@ class Luta {
                     $this-$this->desafiante->empatarLuta();
                     break;
                 case 1: //Desefiado vence
-                    echo "E o Vencedor é ".$this->desafiado->getNome();
+                    echo "<h3>E o Vencedor é <strong>".$this->desafiado->getNome()."</strong></h3>";
                     $this->desafiado->ganharLuta();
                     $this->desafiante->perderLuta();
                     break;
                 case 2: //Desafiante vence
+                    
                     break;
             }
         } else {
