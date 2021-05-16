@@ -105,12 +105,15 @@ class Livro implements Publicacao {
     }
 
     public function recuarPag($numPag) {
-        if($numPag - $this->getTotPaginas() > 0 && $numPag < $this->getTotPaginas()){
-          $this->setPagAtual($this->getPagAtual() - $numPag );  
-          echo "<p>Recuei até á página: ".$this->getPagAtual()."</p>";
-        }else{
-            echo "<h4>ERRO! Não é possivel recuar ". $numPag ." páginas!</h4>";
-        } 
+        if($this->getAberto()){
+            if($numPag - $this->getTotPaginas() > 0 && $numPag < $this->getTotPaginas()){
+                $this->setPagAtual($this->getPagAtual() - $numPag );  
+                echo "<p>Recuei até á página: ".$this->getPagAtual()."</p>";
+            }else{
+                echo "<h4>ERRO! Não é possivel recuar ". $numPag ." páginas!</h4>";
+            } 
+        } else{
+           echo "<h4>ERRO! Livro Fechado</h4>"; 
+        }
     }
-
 }
