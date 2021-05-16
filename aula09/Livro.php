@@ -91,12 +91,17 @@ class Livro implements Publicacao {
     }
 
     public function folhearLivro($numPag) {
-        if($numPag < $this->getTotPaginas()){
-            $this->setPagAtual($numPag);  
-            echo "<p>Folheei até á página: ".$this->getPagAtual()."</p>"; 
+        if($this->getAberto()){
+            if($numPag < $this->getTotPaginas()){
+                $this->setPagAtual($numPag);  
+                echo "<p>Folheei até á página: ".$this->getPagAtual()."</p>"; 
+            } else {
+                echo '<h4>ERRO! Não é possivel folhear.</h4>';
+            }
         } else {
-            echo '<h4>ERRO! Não é possivel folhear.</h4>';
+            echo "<h4>ERRO! Livro Fechado</h4>";
         }
+        
     }
 
     public function recuarPag($numPag) {
