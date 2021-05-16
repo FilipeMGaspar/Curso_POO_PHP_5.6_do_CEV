@@ -11,13 +11,13 @@ class Livro {
     private $leitor;
     
     //Método Construtor
-    public function __construct($titulo, $autor, $totPaginas) {
+    public function __construct($titulo, $autor, $totPaginas, $leitores) {
         $this->titulo = $titulo;
         $this->autor = $autor;
         $this->totPaginas = $totPaginas;
         $this->pagAtual = 0;
         $this->aberto = false;
-        $this->leitor->setNome(null);
+        $this->leitor = $leitores;
     }
     
     //Métodos Geters e Seters
@@ -62,6 +62,7 @@ class Livro {
        echo "<p>Autor: ".$this->getAutor()."</p>";
        echo "<p>Título: ".$this->getAutor()."</p>";
        echo "<p>Número de Páginas: ".$this->getTotPaginas()."</p>";
+       echo "<p>Nome do Leitor: ".$this->leitor->getNome()."</p>";
        echo '<br>'; 
    }
 }

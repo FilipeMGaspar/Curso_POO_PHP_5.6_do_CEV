@@ -14,9 +14,9 @@
             echo "<br>";
             print_r($ana);
 
-            $sql = new Livro("PHP Básico", "Gustavo Guanabara", 659);  
+            $sql = new Livro("PHP Básico", "Gustavo Guanabara", 659, $ana);  
             echo "<br>";
-            print_r($sql);
+            $sql->detalhes();
         ?>
         </pre>
     </body>
