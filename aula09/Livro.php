@@ -106,7 +106,7 @@ class Livro implements Publicacao {
 
     public function recuarPag($numPag) {
         if($this->getAberto()){
-            if($numPag - $this->getTotPaginas() > 0 && $numPag < $this->getTotPaginas()){
+            if($this->getTotPaginas() - $numPag > 0 && $numPag < $this->getTotPaginas()){
                 $this->setPagAtual($this->getPagAtual() - $numPag );  
                 echo "<p>Recuei até á página: ".$this->getPagAtual()."</p>";
             }else{

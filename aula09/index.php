@@ -18,8 +18,8 @@
             echo "<br>";
             $sql->detalhes();
             $sql->abrirLivro();
-            //$sql->avancarPag(300);
-            $sql->recuarPag(400);
+            $sql->avancarPag(300);
+            $sql->recuarPag(100);
             //$sql->folhearLivro(100);
         ?>
         </pre>
