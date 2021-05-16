@@ -81,16 +81,21 @@ class Livro implements Publicacao {
           $this->setPagAtual($this->getPagAtual() +$numPag );  
           echo "<p>Avancei para a página: ".$this->getPagAtual()."</p>";
         }else{
-            echo "<h4>ERRO! Não é possivel avançar para a página ". $numPag ."</h4>";
+            echo "<h4>ERRO! Não é possivel avançar ". $numPag ." páginas!</h4>";
         }        
     }
 
-    public function folhearLivro() {
-        
+    public function folhearLivro($numPag) {
+      
     }
 
-    public function recuarPag() {
-        
+    public function recuarPag($numPag) {
+        if($numPag -$this->getTotPaginas() > 0 && $numPag < $this->getTotPaginas()){
+          $this->setPagAtual($this->getPagAtual() - $numPag );  
+          echo "<p>Avancei para a página: ".$this->getPagAtual()."</p>";
+        }else{
+            echo "<h4>ERRO! Não é possivel recuar ". $numPag ." páginas!</h4>";
+        } 
     }
 
 }
