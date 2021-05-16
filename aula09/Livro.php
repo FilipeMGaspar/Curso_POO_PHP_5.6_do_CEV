@@ -11,11 +11,11 @@ class Livro {
     private $leitor;
     
     //Método Construtor
-    public function __construct($titulo, $autor, $totPaginas, $pagAtual) {
+    public function __construct($titulo, $autor, $totPaginas) {
         $this->titulo = $titulo;
         $this->autor = $autor;
         $this->totPaginas = $totPaginas;
-        $this->pagAtual = $pagAtual;
+        $this->pagAtual = 0;
         $this->aberto = false;
     }
     
