@@ -8,11 +8,15 @@
         <pre>
         <?php
             require_once 'Pessoa.php'; 
+            require_once 'Livro.php';
             
             $ana = new Pessoa("ana", 26, 'F');
             echo "<br>";
             print_r($ana);
 
+            $sql = new Livro("PHP Básico", "Gustavo Guanabara", 659, 0);  
+            echo "<br>";
+            print_r($sql);
         ?>
         </pre>
     </body>
