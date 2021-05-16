@@ -19,6 +19,7 @@
             $sql->detalhes();
             //$sql->avancarPag(550);
             $sql->recuarPag(400);
+            $sql->folhearLivro(100);
         ?>
         </pre>
     </body>

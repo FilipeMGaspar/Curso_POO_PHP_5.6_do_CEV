@@ -86,13 +86,16 @@ class Livro implements Publicacao {
     }
 
     public function folhearLivro($numPag) {
-      
+        if( $numPag - $this->getTotPaginas() > 0  && $numPag < $this->getTotPaginas()){
+            $this->setPagAtual($this->getPagAtual() - $numPag );  
+            echo "<p>Folheei até á página: ".$this->getPagAtual()."</p>"; 
+        }
     }
 
     public function recuarPag($numPag) {
-        if($numPag -$this->getTotPaginas() > 0 && $numPag < $this->getTotPaginas()){
+        if($numPag - $this->getTotPaginas() > 0 && $numPag < $this->getTotPaginas()){
           $this->setPagAtual($this->getPagAtual() - $numPag );  
-          echo "<p>Avancei para a página: ".$this->getPagAtual()."</p>";
+          echo "<p>Recuei até á página: ".$this->getPagAtual()."</p>";
         }else{
             echo "<h4>ERRO! Não é possivel recuar ". $numPag ." páginas!</h4>";
         } 
