@@ -12,9 +12,7 @@
             $ana = new Pessoa("ana", 26, 'F');
             echo "<br>";
             print_r($ana);
-            $ana->fazerAniver();
-            echo "<br>";
-            print_r($ana);
+
         ?>
         </pre>
     </body>
