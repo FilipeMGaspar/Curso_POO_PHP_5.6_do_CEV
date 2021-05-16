@@ -87,8 +87,10 @@ class Livro implements Publicacao {
 
     public function folhearLivro($numPag) {
         if( $numPag - $this->getTotPaginas() > 0  && $numPag < $this->getTotPaginas()){
-            $this->setPagAtual($this->getPagAtual() - $numPag );  
+            $this->setPagAtual($this->getPagAtual($numPag));  
             echo "<p>Folheei até á página: ".$this->getPagAtual()."</p>"; 
+        } else {
+            echo '<h4>ERRO! Não é possivel folhear.</h4>';
         }
     }
 
