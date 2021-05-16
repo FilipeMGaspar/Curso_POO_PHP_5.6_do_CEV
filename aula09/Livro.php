@@ -17,6 +17,7 @@ class Livro {
         $this->totPaginas = $totPaginas;
         $this->pagAtual = 0;
         $this->aberto = false;
+        $this->leitor->setNome(null);
     }
     
     //Métodos Geters e Seters
