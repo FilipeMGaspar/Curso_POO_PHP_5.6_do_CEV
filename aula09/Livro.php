@@ -56,5 +56,11 @@ class Livro {
     }
 
     //Métodos públicos
-   
+   public function detalhes(){
+       echo "<h3> ..: Detalhes do Livro :..</h3>";
+       echo "<p>Autor: ".$this->getAutor()."</p>";
+       echo "<p>Título: ".$this->getAutor()."</p>";
+       echo "<p>Número de Páginas: ".$this->getTotPaginas()."</p>";
+       echo '<br>'; 
+   }
 }
