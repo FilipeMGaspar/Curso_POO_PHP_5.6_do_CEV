@@ -17,6 +17,7 @@
             $sql = new Livro("PHP Básico", "Gustavo Guanabara", 659, $ana);  
             echo "<br>";
             $sql->detalhes();
+            $sql->avancarPag(550);
         ?>
         </pre>
     </body>
