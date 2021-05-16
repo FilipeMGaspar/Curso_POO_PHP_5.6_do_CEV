@@ -10,7 +10,7 @@
             require_once 'Pessoa.php'; 
             require_once 'Livro.php';
             
-            $ana = new Pessoa("ana", 26, 'F');
+            $ana = new Pessoa("Ana", 26, 'F');
             echo "<br>";
             print_r($ana);
 

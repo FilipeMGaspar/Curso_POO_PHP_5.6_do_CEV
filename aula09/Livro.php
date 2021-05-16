@@ -1,7 +1,8 @@
 <?php
 require_once 'Pessoa.php';
+require_once 'Publicacao.php';
 
-class Livro {
+class Livro implements Publicacao {
     //Atributos
     private $titulo;
     private $autor;
@@ -65,4 +66,26 @@ class Livro {
        echo "<p>Nome do Leitor: ".$this->leitor->getNome()."</p>";
        echo '<br>'; 
    }
+
+   //Métos abstratos subrescrever os métodos
+    public function abrirLivro() {
+        $this->setAberto(true);
+    }
+
+    public function fecharLivro() {
+        $this->setAberto(false);
+    }
+    
+    public function avancarPag() {
+        
+    }
+
+    public function folhearLivro() {
+        
+    }
+
+    public function recuarPag() {
+        
+    }
+
 }
