@@ -22,5 +22,7 @@ class Professor {
     }
     
     //Métodos públicos
-    
+    public function receberAumento(){
+        
+    }
 }
