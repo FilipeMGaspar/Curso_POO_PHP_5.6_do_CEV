@@ -1,7 +1,7 @@
 <?php
 require_once 'Pessoa.php';
 
-class Funcionario {
+class Funcionario extends Pessoa {
     //Atributos
     private $setor;
     private $trabalhando;
