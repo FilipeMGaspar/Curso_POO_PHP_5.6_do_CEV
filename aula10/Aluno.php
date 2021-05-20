@@ -1,5 +1,7 @@
 <?php
-class Aluno {
+require_once 'Pessoa.php';
+
+class Aluno extends Pessoa {
     //Atributos
     private $matr;
     private $curso;
