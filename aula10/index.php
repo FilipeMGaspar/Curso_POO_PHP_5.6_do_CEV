@@ -6,6 +6,7 @@
         <title>Aula 10b - Herança (Parte 1) - PHP</title>
     </head>
     <body>
+        <pre>
         <?php
             require_once 'Pessoa.php';
             require_once 'Aluno.php';
@@ -23,6 +24,8 @@
             $p3->setNome("Cláudio");
             $p4->setNome("Fabiana");
             
+            print_r($p1);
         ?>
+        </pre>
     </body>
 </html>
