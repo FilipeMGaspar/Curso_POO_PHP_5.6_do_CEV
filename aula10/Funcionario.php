@@ -20,5 +20,9 @@ class Funcionario {
     public function setSetor($setor) {
         $this->setor = $setor;
     }
-
+    
+    //Métodos públicos
+    public function mudarTrabalho(){
+        
+    }
 }
