@@ -28,6 +28,12 @@
             
             $p1->setSexo('M');
             $p4->setSexo("F");
+            
+            $p2->setCurso("Informática");
+            $p3->setSalario(2500.75);
+            $p4->setSetor("Estoque");
+            
+            
         ?>
         </pre>
     </body>
