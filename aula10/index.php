@@ -36,9 +36,10 @@
             $p3->setSalario(2500.75);
             $p4->setSetor("Estoque");
             
-            /*$p1->receberAumento(500.20);
+            
+            $p1->receberAumento(500.20); 
             $p2->mudarTrabalho();
-            $p4->cancelarMatr();*/
+            $p4->cancelarMatr();
             
             print_r($p1);
             echo '<br>';
