@@ -1,7 +1,7 @@
 <?php
 require_once 'Pessoa.php';
 
-class Professor {
+class Professor extends Pessoa {
     //Atributos
     private $especialidade;
     private $salario;
