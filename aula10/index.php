@@ -13,6 +13,8 @@
             require_once 'Funcionario.php';
             
             //Programa Principal
+            $p1 = new Pessoa();
+            
         ?>
     </body>
 </html>
