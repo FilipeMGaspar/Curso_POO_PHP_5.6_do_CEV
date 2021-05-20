@@ -22,7 +22,7 @@ class Professor extends Pessoa {
     }
     
     //Métodos públicos
-    public function receberAumento(){
-        
+    public function receberAumento($aumento){
+        $this->salario += $aumento;
     }
 }
