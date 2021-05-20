@@ -1,5 +1,7 @@
 <?php
+require_once 'Pessoa.php';
 
 class Professor {
-    //put your code here
+    //Atributos
+    
 }
