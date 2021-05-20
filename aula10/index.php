@@ -18,6 +18,10 @@
             $p3 = new Professor();
             $p4 = new Funcionario();
             
+            $p1->setNome("Pedro");
+            $p2->setNome("Maria");
+            $p3->setNome("Cláudio");
+            $p4->setNome("Fabiana");
             
         ?>
     </body>
