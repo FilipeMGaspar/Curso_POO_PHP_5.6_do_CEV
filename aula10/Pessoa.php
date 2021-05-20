@@ -27,6 +27,9 @@ class Pessoa {
    public function setSexo($sexo) {
        $this->sexo = $sexo;
    }
-
-
+   
+   //Métodos públicos
+   public function fazerAniver(){
+       $this->setIdade($this->getIdade()+1);
+   }
 }
