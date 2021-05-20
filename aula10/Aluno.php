@@ -18,6 +18,9 @@ class Aluno {
     public function setCurso($curso) {
         $this->curso = $curso;
     }
-
-
+    
+    //Método Publico
+    public function cancelarMatr() {
+        
+    }
 }
