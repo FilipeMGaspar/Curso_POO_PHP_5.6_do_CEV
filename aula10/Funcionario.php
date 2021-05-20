@@ -23,6 +23,6 @@ class Funcionario extends Pessoa {
     
     //Métodos públicos
     public function mudarTrabalho(){
-        
+        $this->trabalhando = ! $this->trabalhando;
     }
 }
