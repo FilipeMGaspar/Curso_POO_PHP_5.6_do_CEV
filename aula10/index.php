@@ -14,6 +14,10 @@
             
             //Programa Principal
             $p1 = new Pessoa();
+            $p2 = new Aluno();
+            $p3 = new Professor();
+            $p4 = new Funcionario();
+            
             
         ?>
     </body>
