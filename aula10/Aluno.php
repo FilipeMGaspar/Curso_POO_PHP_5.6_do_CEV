@@ -21,6 +21,6 @@ class Aluno {
     
     //Método Publico
     public function cancelarMatr() {
-        
+        echo "<h4>A sua matrícula foi cancelada!</h4>";
     }
 }
