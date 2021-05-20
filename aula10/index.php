@@ -25,6 +25,9 @@
             $p4->setNome("Fabiana");
             
             print_r($p1);
+            
+            $p1->setSexo('M');
+            $p4->setSexo("F");
         ?>
         </pre>
     </body>
