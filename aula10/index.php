@@ -24,7 +24,10 @@
             $p3->setNome("Cláudio");
             $p4->setNome("Fabiana");
             
-            print_r($p1);
+            //print_r($p1);
+            //print_r($p2);
+            //print_r($p3);
+            //print_r($p4);
             
             $p1->setSexo('M');
             $p4->setSexo("F");
@@ -33,7 +36,9 @@
             $p3->setSalario(2500.75);
             $p4->setSetor("Estoque");
             
-            
+            /*$p1->receberAumento(500.20);
+            $p2->mudarTrabalho();
+            $p4->cancelarMatr();*/
         ?>
         </pre>
     </body>
