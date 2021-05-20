@@ -39,6 +39,14 @@
             /*$p1->receberAumento(500.20);
             $p2->mudarTrabalho();
             $p4->cancelarMatr();*/
+            
+            print_r($p1);
+            echo '<br>';
+            print_r($p2);
+            echo '<br>';
+            print_r($p3);
+            echo '<br>';
+            print_r($p4);
         ?>
         </pre>
     </body>
