@@ -2,9 +2,9 @@
 
 abstract class Pessoa {
     //Atributos
-    private $nome;
-    private $idade;
-    private $sexo;
+    protected $nome;
+    protected $idade;
+    protected $sexo;
     
     //Métodos Geter e Seter
     public function getNome() {

@@ -23,6 +23,7 @@ class Aluno extends Pessoa {
 
     //Métodos públicos
     public function pagarMensalidade() {
-        echo "<p>O aluno <strong>".$this->getNome()."</strong> pagou a mensalide!</p>";
+        echo "<p>O aluno <strong>".$this->nome."</strong> pagou a mensalide!</p>";
+         //echo "<p>O aluno <strong>".$this->getNome()."</strong> pagou a mensalide!</p>";
     }
 }
