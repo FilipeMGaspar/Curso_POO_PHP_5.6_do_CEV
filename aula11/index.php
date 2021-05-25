@@ -6,7 +6,11 @@
     </head>
     <body>
         <?php
-        
+            require_once 'Pessoa.php';
+            
+            //$p1 = new Pessoa(); com erro classe abestrata não pode ser instanciada
+            
+            
         ?>
     </body>
 </html>
