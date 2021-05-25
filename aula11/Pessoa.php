@@ -28,5 +28,8 @@ abstract class Pessoa {
         $this->sexo = $sexo;
     }
 
-
+    //Método final público
+    public final function fazerAniversario(){
+        $this->idade ++;
+    }
 }
