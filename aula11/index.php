@@ -11,10 +11,11 @@
             //$p1 = new Pessoa(); com erro classe abestrata não pode ser instanciada
             
             require_once 'Visitante.php';
+            
             $v1 = new Visitante();
             $v1->setNome("Juvenal");
             $v1->setIdade(33);
-            $vi->setSexo('M');
+            $v1->setSexo('M');
             print_r($v1);
         ?>
         </pre>
