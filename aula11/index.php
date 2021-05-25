@@ -11,6 +11,10 @@
             
             require_once 'Visitante.php';
             $v1 = new Visitante();
+            $v1->setNome("Juvenal");
+            $v1->setIdade(33);
+            $vi->setSexo('M');
+            
         ?>
     </body>
 </html>
