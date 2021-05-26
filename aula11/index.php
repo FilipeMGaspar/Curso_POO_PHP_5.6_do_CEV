@@ -31,6 +31,7 @@
             
             $b1 = new Bolsista();
             $b1->setMatricula(2563265);
+            $b1->setNome("Jubileu");
             
         ?>
         </pre>
