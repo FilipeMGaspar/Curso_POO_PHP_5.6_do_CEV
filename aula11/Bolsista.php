@@ -11,7 +11,7 @@ class Bolsista extends Aluno {
     }
     
     public function pagarMensalidade() {
-        echo "<p>$this->nome é bolsista! Então paga com desconto.";
+        echo "<p>$this->nome é bolsista! Então paga com desconto.</p>";
     }
 
 
