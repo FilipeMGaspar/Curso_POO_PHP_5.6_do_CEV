@@ -26,6 +26,7 @@
             $a1->setCurso("Enfermagem");
             $a1->setMatricula(2021256123);
             print_r($a1);
+            $a1->pagarMensalidade();
         ?>
         </pre>
     </body>
