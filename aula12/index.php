@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Aula 12b - Polimorfismo em PHP (Parte 1)</title>
     </head>
     <body>
         <?php
