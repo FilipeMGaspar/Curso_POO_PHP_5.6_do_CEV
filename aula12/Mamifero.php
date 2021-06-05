@@ -2,8 +2,10 @@
 require_once 'Animal.php';
 
 class Mamifero extends Animal{
+   //Atributos
     private $corPelo;
   
+    //Metodos abstratos sobrescritos 
     public function alimentar() {
         echo "<p>Em cria. Mamando. &#X1F37C</p>";
     }
@@ -16,4 +18,14 @@ class Mamifero extends Animal{
         echo '<p>Correndo! </p>';
     }
 
+   //Métodos geter e seter
+   public function getCorPelo() {
+       return $this->corPelo;
+   }
+   public function setCorPelo($corPelo) {
+       $this->corPelo = $corPelo;
+   }
+
+
+    
 }
