@@ -6,5 +6,6 @@ abstract class Animal {
     protected $membros;
     
     abstract public function locomever();
-    
+    abstract public function alimentar();
+    abstract public function emitirSom();
 }
