@@ -26,6 +26,7 @@
             $m->emitirSom();
             $m->locomever();
         
+            //Reptil especialização de Animal
             $r = new Reptil();
             $r->setPeso(0.956);
             $r->setIdade(2);
