@@ -16,7 +16,8 @@
             $m->setPeso(26.35);
             $m->setIdade(1);
             $m->setMembros(4);
-          
+            $m->setCorPelo("Castanho");
+            
             print_r($m);
             echo '<br>';
             $m->alimentar();
