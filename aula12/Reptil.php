@@ -7,15 +7,15 @@ class Reptil extends Animal {
     
     //Metodos abstratos sobrescritos 
     public function alimentar() {
-        
+        echo "<p>Comando vegetais! &#X1F96C</p>";
     }
 
     public function emitirSom() {
-        
+        echo '<p>Som de Réptil!</p>'; 
     }
 
     public function locomever() {
-        
+        echo "<p>Rastejando</p>";
     }
     
     //Métodos Geter e Seter
