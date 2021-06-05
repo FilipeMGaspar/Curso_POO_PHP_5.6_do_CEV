@@ -8,6 +8,8 @@
     <body>
         <?php
         // put your code here
+            require_once 'Animal.php';
+            //$a = new Animal(); Uma classe abstrata não pode ser instanciada
         ?>
     </body>
 </html>
