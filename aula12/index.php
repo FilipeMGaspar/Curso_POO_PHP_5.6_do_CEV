@@ -8,8 +8,11 @@
     <body>
         <?php
         // put your code here
-            require_once 'Animal.php';
+            require_once 'Mamifero.php';
             //$a = new Animal(); Uma classe abstrata não pode ser instanciada
+            
+            $m = new Mamifero();
+            $m->alimentar();
         ?>
     </body>
 </html>
