@@ -15,7 +15,7 @@ class Peixe extends Animal {
     }
 
     public function locomever() {
-        echo "<p>Nadando!</p>";
+        echo "<p>Nadando! &#X1F420</p>";
     }
     
     //Métodos Geter e Seter
@@ -28,7 +28,7 @@ class Peixe extends Animal {
 
     //Métodos Públicos
     public function soltarBolha(){
-        echo "<p>Soltou uma bolha! </p>";
+        echo "<p>Soltou uma bolha! &#XF5F0</p>";
     }
 
 }

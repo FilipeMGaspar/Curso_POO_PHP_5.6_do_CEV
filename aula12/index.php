@@ -13,6 +13,7 @@
 
             require_once 'Mamifero.php';
             require_once 'Reptil.php';
+            require 'Peixe.php';
 
             //Mamifero especialização de Animal
             $m = new Mamifero();
@@ -37,6 +38,9 @@
             $r->alimentar();
             $r->emitirSom();
             $r->locomever();
+            
+            //Peixe especialização de animal
+            $p = new Peixe();
         ?>
         </pre>
     </body>
