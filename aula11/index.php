@@ -21,7 +21,7 @@
             //print_r($v1);
             
             $a1 = new Aluno();
-            $a1->setNome("Juliana");
+            $a1->setNome("Maria");
             $a1->setIdade(16);
             $a1->setSexo('F');
             $a1->setCurso("Enfermagem");
