@@ -1,9 +1,22 @@
 <?php
 require_once 'Animal.php';
 
-class Peixe {
+class Peixe extends Animal {
     //Atributos
     private $corDeEscama;
+    
+    //Métodos Abstractos sobrescritos
+    public function alimentar() {
+        echo "<p>Comemdo substâncias!</p>";
+    }
+
+    public function emitirSom() {
+        echo "<p>Peixe não faz som!</p>";
+    }
+
+    public function locomever() {
+        echo "<p>Nadando!</p>";
+    }
     
     //Métodos Geter e Seter
     public function getCorDeEscama() {
