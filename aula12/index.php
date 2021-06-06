@@ -21,7 +21,6 @@
             $m->setIdade(1);
             $m->setMembros(4);
             $m->setCorPelo("Castanho");
-
             print_r($m);
             $m->alimentar();
             $m->emitirSom();
@@ -32,8 +31,7 @@
             $r->setPeso(0.956);
             $r->setIdade(2);
             $r->setMembros(5);
-            $r->setCorEscama("Acastanhada e verde");
-            
+            $r->setCorEscama("Acastanhada e verde");            
             print_r($r);
             $r->alimentar();
             $r->emitirSom();
@@ -41,6 +39,15 @@
             
             //Peixe especialização de animal
             $p = new Peixe();
+            $p->setPeso(0.250);
+            $p->setIdade(2);
+            $p->setMembros(0);
+            $p->setCorDeEscama("Dourada");
+            print_r($p);
+            $p->locomever();
+            $p->emitirSom();
+            $p->alimentar();
+            $p->soltarBolha();
         ?>
         </pre>
     </body>
