@@ -15,6 +15,7 @@
             require_once 'Reptil.php';
             require 'Peixe.php';
             require_once 'Ave.php';
+            require_once 'Canguru.php';
 
             //Mamifero especialização de Animal
             $m = new Mamifero();
@@ -61,6 +62,18 @@
             $a->emitirSom();
             $a->alimentar();
             $a->fazerNinho();
+            
+            //Canguru especialização de Mamifero
+            $cg = new Canguru();
+            $cg->setPeso(32);
+            $cg->setMembros(3);
+            $cg->setIdade(4);
+            $cg->setCorPelo("Castanho");
+            print_r($cg);
+            $cg->locomever();
+            $cg->alimentar();
+            $cg->emitirSom();
+            
         ?>
         </pre>
     </body>
