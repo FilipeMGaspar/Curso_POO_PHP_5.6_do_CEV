@@ -6,7 +6,9 @@ class Canguru extends Mamifero {
     public function usarBolsa() {
         echo "<p>Usando bolsa! </p>";
     }
+    
+    //Método abstracto sobrescrito
     public function locomever() {
-        echo "<p>Saltando! </p>";
+        echo "<p>Saltando! &#X1F998</p>";
     }
 }
