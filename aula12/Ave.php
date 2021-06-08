@@ -15,15 +15,15 @@ class Ave extends Animal {
 
     //Métodos abstractos sobrescritos
     public function alimentar() {
-        
+        echo "<p>Comendo frutas! &#X1F34E &#X1F352</p>";
     }
 
     public function emitirSom() {
-        
+        echo "<p>Som de ave!</p>";
     }
 
     public function locomever() {
-        
+        echo "<p>Voando!</p>";
     }
     
     //Método publico
