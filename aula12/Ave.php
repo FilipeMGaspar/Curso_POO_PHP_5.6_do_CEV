@@ -15,7 +15,7 @@ class Ave extends Animal {
 
     //Métodos abstractos sobrescritos
     public function alimentar() {
-        echo "<p>Comendo frutas! &#X1F34E &#X1F352</p>";
+        echo "<p>Comendo frutas! &#X1F34E &#X1F352 &#X1F347</p>";
     }
 
     public function emitirSom() {
