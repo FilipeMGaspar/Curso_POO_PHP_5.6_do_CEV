@@ -23,7 +23,7 @@ class Ave extends Animal {
     }
 
     public function locomever() {
-        echo "<p>Voando!</p>";
+        echo "<p>Voando! &#X1F985</p>";
     }
     
     //Método publico
