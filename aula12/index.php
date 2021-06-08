@@ -14,6 +14,7 @@
             require_once 'Mamifero.php';
             require_once 'Reptil.php';
             require 'Peixe.php';
+            require_once 'Ave.php';
 
             //Mamifero especialização de Animal
             $m = new Mamifero();
@@ -48,6 +49,18 @@
             $p->emitirSom();
             $p->alimentar();
             $p->soltarBolha();
+            
+            //Ave especialização de animal
+            $a = new Ave();
+            $a->setPeso(0.750);
+            $a->setIdade(3);
+            $a->setMembros(2);
+            $a->setCorPenas("Verde");
+            print_r($a);
+            $a->locomever();
+            $a->emitirSom();
+            $a->alimentar();
+            $a->fazerNinho();
         ?>
         </pre>
     </body>
