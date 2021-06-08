@@ -1,7 +1,7 @@
 <?php
 require_once 'Animal.php';
 
-class Ave {
+class Ave extends Animal {
     //Atributos
     private $corPenas;
     
@@ -13,5 +13,17 @@ class Ave {
         $this->corPenas = $corPenas;
     }
 
+    //Métodos abstractos sobrescritos
+    public function alimentar() {
+        
+    }
 
+    public function emitirSom() {
+        
+    }
+
+    public function locomever() {
+        
+    }
+    
 }
