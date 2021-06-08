@@ -26,4 +26,8 @@ class Ave extends Animal {
         
     }
     
+    //Método publico
+    public function fazerNinho(){
+        
+    }
 }
