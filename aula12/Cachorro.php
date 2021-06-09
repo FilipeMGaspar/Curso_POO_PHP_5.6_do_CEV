@@ -1,5 +1,6 @@
 <?php
+require_once 'Mamifero.php';
 
-class Cachorro {
+class Cachorro extends Mamifero {
     
 }
