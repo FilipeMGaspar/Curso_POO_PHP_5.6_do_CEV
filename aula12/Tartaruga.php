@@ -1,5 +1,6 @@
 <?php
+require_once 'Reptil.php';
 
-class Tartaruga {
+class Tartaruga extends Reptil {
     
 }
