@@ -17,6 +17,7 @@
             require_once 'Ave.php';
             require_once 'Canguru.php';
             require_once 'Cachorro.php';
+            require_once 'Tartaruga.php';
 
             //Mamifero especialização de Animal
             $m = new Mamifero();
@@ -87,6 +88,17 @@
             $cao->emitirSom();
             $cao->enterrarOsso();
             $cao->abanarRabo();
+            
+            //Tartaruga especialização de Reptil
+            $tnt = new Tartaruga();
+            $tnt->setPeso(4);
+            $tnt->setIdade(10);
+            $tnt->setMembros(4);
+            $tnt->setCorEscama("Verde");
+            print_r($tnt);
+            $tnt->alimentar();
+            $tnt->emitirSom();
+            $tnt->locomever();
         ?>
         </pre>
     </body>
