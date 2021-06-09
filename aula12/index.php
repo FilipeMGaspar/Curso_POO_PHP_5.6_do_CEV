@@ -16,6 +16,7 @@
             require 'Peixe.php';
             require_once 'Ave.php';
             require_once 'Canguru.php';
+            require_once 'Cachorro.php';
 
             //Mamifero especialização de Animal
             $m = new Mamifero();
@@ -74,6 +75,18 @@
             $cg->alimentar();
             $cg->emitirSom();
             
+            //Cachorro especialização de Mamifero
+            $cao = new Cachorro();
+            $cao->setPeso(10);
+            $cao->setIdade(3);
+            $cao->setMembros(4);
+            $cao->setCorPelo("Preto");
+            print_r($cao);
+            $cao->locomever();
+            $cao->alimentar();
+            $cao->emitirSom();
+            $cao->enterrarOsso();
+            $cao->abanarRabo();
         ?>
         </pre>
     </body>
