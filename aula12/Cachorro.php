@@ -12,4 +12,8 @@ class Cachorro extends Mamifero {
     public function enterrarOsso() {
         echo "<p>Enterrando o Osso! &#X1F9B4</p>";
     }
+    
+    public function abanarRabo() {
+        echo "<p>Abanando o Rabo! &#X1F415</p>";
+    }
 }
