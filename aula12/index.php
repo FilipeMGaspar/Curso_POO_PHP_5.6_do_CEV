@@ -18,6 +18,7 @@
             require_once 'Canguru.php';
             require_once 'Cachorro.php';
             require_once 'Tartaruga.php';
+            require_once 'Goldfish.php';
 
             //Mamifero especialização de Animal
             $m = new Mamifero();
@@ -99,6 +100,19 @@
             $tnt->alimentar();
             $tnt->emitirSom();
             $tnt->locomever();
+            
+            //GoldFish especialização de Peixe
+            $gf = new Goldfish();
+            $gf->setPeso(0.100);
+            $gf->setIdade(1);
+            $gf->setMembros(0);
+            $gf->setCorDeEscama("Dourado");
+            $gf->alimentar();
+            $gf->emitirSom();
+            $gf->locomever();
+            $gf->soltarBolha();
+            
+            
         ?>
         </pre>
     </body>
