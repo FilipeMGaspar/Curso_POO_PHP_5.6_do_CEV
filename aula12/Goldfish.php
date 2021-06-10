@@ -1,6 +1,6 @@
 <?php
 require_once 'Peixe.php';
 
-class Goldfish {
+class Goldfish extends Peixe {
     
 }
