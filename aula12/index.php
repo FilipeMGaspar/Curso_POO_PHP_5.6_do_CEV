@@ -123,7 +123,7 @@
             print_r($ar);
             $ar->alimentar();
             $ar->emitirSom();
-            $ar->alimentar();
+            $ar->locomever();
             $ar->fazerNinho();
         ?>
         </pre>
