@@ -107,6 +107,7 @@
             $gf->setIdade(1);
             $gf->setMembros(0);
             $gf->setCorDeEscama("Dourado");
+            print_r($gf);
             $gf->alimentar();
             $gf->emitirSom();
             $gf->locomever();
