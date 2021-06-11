@@ -2,6 +2,6 @@
 
 require_once 'Reptil.php';
 
-class Cobra {
+class Cobra extends Reptil {
     
 }
