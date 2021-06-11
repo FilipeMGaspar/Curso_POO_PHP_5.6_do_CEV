@@ -20,6 +20,7 @@
             require_once 'Tartaruga.php';
             require_once 'Goldfish.php';
             require_once 'Arara.php';
+            require_once 'Cobra.php';
 
             //Mamifero especialização de Animal
             $m = new Mamifero();
@@ -114,7 +115,7 @@
             $gf->locomever();
             $gf->soltarBolha();
             
-            //Arara especialização de Ava
+            //Arara especialização de Ave
             $ar = new Arara();
             $ar->setPeso(0.850);
             $ar->setIdade(4);
@@ -125,6 +126,17 @@
             $ar->emitirSom();
             $ar->locomever();
             $ar->fazerNinho();
+            
+            //Cobra especialização de Reptil
+            $cbr = new Cobra();
+            $cbr->setPeso(6);
+            $cbr->setMembros(0);
+            $cbr->setIdade(9);
+            $cbr->setCorEscama("Verde e preto");
+            print_r($cbr);
+            $cbr->alimentar();
+            $cbr->emitirSom();
+            $cbr->locomever();
         ?>
         </pre>
     </body>
