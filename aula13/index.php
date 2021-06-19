@@ -17,6 +17,7 @@
                 $m->setMembros(4);
                 $m->setCorPelo("Castanho");
                 print_r($m);
+                $m->emitirSom();
             ?>
         </pre>
     </body>
