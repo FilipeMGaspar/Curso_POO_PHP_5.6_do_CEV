@@ -18,6 +18,9 @@
                 $m->setCorPelo("Castanho");
                 print_r($m);
                 $m->emitirSom();
+                
+                //Lobo especialização de mamifero
+                
             ?>
         </pre>
     </body>
