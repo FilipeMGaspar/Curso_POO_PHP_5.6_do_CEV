@@ -6,5 +6,6 @@ abstract class Animal {
     protected $idade;
     protected $membros;
     
+    //Método abstracto
     public abstract function emitirSom();
 }
