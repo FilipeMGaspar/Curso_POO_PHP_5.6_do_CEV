@@ -7,7 +7,7 @@
     </head>
     <body>
         <?php
-        
+            //Programa principal
         ?>
     </body>
 </html>
