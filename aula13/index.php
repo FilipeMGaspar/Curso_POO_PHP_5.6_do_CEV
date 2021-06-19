@@ -15,7 +15,7 @@
                 $m->setPeso(25.6);
                 $m->setIdade(4);
                 $m->setMembros(4);
-                $m->setCorPelo("Catanho");
+                $m->setCorPelo("Castanho");
                 print_r($m);
             ?>
         </pre>
