@@ -1,6 +1,11 @@
 <?php
 require_once 'Animal.php';
 
-class Mamifero {
+class Mamifero extends Animal{
+     //Métodos abstractos sobrescritos
     
+     public function emitirSom() {
+        
+    }
+
 }
