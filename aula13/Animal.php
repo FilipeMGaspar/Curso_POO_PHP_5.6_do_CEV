@@ -6,4 +6,5 @@ abstract class Animal {
     protected $idade;
     protected $membros;
     
+    public abstract function emitirSom();
 }
