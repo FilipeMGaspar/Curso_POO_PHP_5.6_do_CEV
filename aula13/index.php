@@ -11,6 +11,7 @@
                 //Programa principal
                 require_once 'Mamifero.php';
                 require_once 'Lobo.php';
+                require_once 'Cachorro.php';
 
                 $m = new Mamifero();
                 $m->setPeso(25.6);
@@ -28,6 +29,16 @@
                 $l->setCorPelo("Cinzento");
                 print_r($l);
                 $l->emitirSom();
+                
+                //cachorro especialização de lobo e de mamifero
+                $cao = new Cachorro();
+                $cao->setIdade(3);
+                $cao->setPeso(18);
+                $cao->setMembros(4);
+                $cao->setCorPelo("Preto");
+                print_r($cao);
+                $cao->emitirSom();
+                
             ?>
         </pre>
     </body>
