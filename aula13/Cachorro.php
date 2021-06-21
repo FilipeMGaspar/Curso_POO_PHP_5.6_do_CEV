@@ -5,6 +5,6 @@ class Cachorro extends Lobo {
     
     //Método abstracto sobrescrito
     public function emitirSom() {
-                
+        echo "<p> Au! Au! Au! </p>";        
     }
 }
