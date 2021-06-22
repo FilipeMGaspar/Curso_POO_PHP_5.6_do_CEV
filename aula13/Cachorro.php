@@ -24,4 +24,8 @@ class Cachorro extends Lobo {
     public function reagir($dono){
         
     }
+    
+    public function reagir($idade, $peso) {
+        
+    }
 }
