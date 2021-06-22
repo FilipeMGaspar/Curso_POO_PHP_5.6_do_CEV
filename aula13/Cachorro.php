@@ -7,4 +7,7 @@ class Cachorro extends Lobo {
     public function emitirSom() {
         echo "<p> &#X1F436 Au! Au! Au! &#X1F415</p>";        
     }
+    
+    //Sobrecarga de Métodos 
+    
 }
