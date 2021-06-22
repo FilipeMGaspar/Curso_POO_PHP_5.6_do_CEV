@@ -38,7 +38,7 @@
                 $cao->setCorPelo("Preto");
                 print_r($cao);
                 $cao->emitirSom();
-                $cao->reagir("Vai para o castigo!");
+                $cao->reagirFrase("Vai para o castigo!");
             ?>
         </pre>
     </body>
