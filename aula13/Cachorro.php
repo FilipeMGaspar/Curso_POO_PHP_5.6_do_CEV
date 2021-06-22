@@ -9,5 +9,9 @@ class Cachorro extends Lobo {
     }
     
     //Sobrecarga de Métodos 
-    
+    public function reagir($frase) {
+        if($frase === "olá"){
+            echo "<p>Abanar o rabo e latir</p>";
+        }
+    }
 }
