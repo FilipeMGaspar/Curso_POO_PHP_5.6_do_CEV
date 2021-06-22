@@ -21,4 +21,7 @@ class Cachorro extends Lobo {
         
     }
     
+    public function reagir($dono){
+        
+    }
 }
