@@ -16,4 +16,9 @@ class Cachorro extends Lobo {
             echo "<p>Rosnar!</p>";
         }
     }
+    
+    public function reagir($horas, $min){
+        
+    }
+    
 }
