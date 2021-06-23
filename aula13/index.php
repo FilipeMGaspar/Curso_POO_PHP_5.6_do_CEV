@@ -40,6 +40,8 @@
                 $cao->emitirSom();
                 $cao->reagirFrase("Comida");
                 $cao->reagirFrase("Vai para o castigo!");
+                $cao->reagirHoras(12, 0);
+                $cao->reagirHoras(19, 20);
             ?>
         </pre>
     </body>
