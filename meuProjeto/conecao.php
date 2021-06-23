@@ -29,5 +29,10 @@ class conecao {
     }
     
     //Método Publico
+    public function criarLigacao($user, $db, $psw) {
+        $this->setUserName($user);
+        $this->setDbName($db);
+        $this->setPassword($psw);
+    }
 
 }
