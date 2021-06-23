@@ -36,5 +36,6 @@ class conecao {
         //base64_decode($string);
         //base64_encode($string);
     }
-
+    
+    
 }
