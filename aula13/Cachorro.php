@@ -22,6 +22,8 @@ class Cachorro extends Lobo {
            echo "<p>Abanar o rabo!</p>";
        } else if(hora >= 18){
            echo "<p>Ignorar</p>";
+       }else {
+           echo "<p>Abanar e Latir!</p>";
        }
     }
     
