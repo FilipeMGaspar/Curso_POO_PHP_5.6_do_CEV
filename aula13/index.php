@@ -48,6 +48,7 @@
                 $cao->reagirIdadePeso(3, 4);
                 $cao->reagirIdadePeso(4, 12);
                 $cao->reagirIdadePeso(5, 9);
+                $cao->reagirIdadePeso(8, 13);
             ?>
         </pre>
     </body>
