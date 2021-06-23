@@ -11,7 +11,7 @@
                 require_once 'conecao.php';
 
                 $conect = new conecao();
-                $conect->criarLigacao("user", "db_teste", 123456);
+                $conect->criarLigacao("user", "db_teste", "MTIzNDU2");
                 print_r($conect);
 
             ?>
