@@ -32,7 +32,7 @@ class conecao {
     public function criarLigacao($user, $db, $psw) {
         $this->setUserName($user);
         $this->setDbName($db);
-        $this->setPassword(base64_decode($psw));
+        $this->setPassword(base64_encode($psw));
         //base64_decode($string);
         //base64_encode($string);
     }
