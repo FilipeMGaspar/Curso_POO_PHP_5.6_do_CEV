@@ -31,7 +31,7 @@ class Cachorro extends Lobo {
         if($dono === true){
             echo "Abanor o rabo e saltar";
         }else{
-            echo "Ladrar, Rosnar, correr atrás!";
+            echo "<p>Ladrar, Rosnar, correr atrás!</p>";
         }
     }
     
