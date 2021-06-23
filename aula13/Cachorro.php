@@ -28,7 +28,9 @@ class Cachorro extends Lobo {
     }
     
     public function reagirDono($dono){
-        
+        if($dono === true){
+            echo "Abanor o rabo e saltar";
+        }
     }
     
     public function reagirIdadePeso($idade, $peso) {
