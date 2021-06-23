@@ -42,6 +42,7 @@
                 $cao->reagirFrase("Vai para o castigo!");
                 $cao->reagirHoras(12, 0);
                 $cao->reagirHoras(19, 20);
+                $cao->reagirHoras(10, 30);
             ?>
         </pre>
     </body>
