@@ -44,6 +44,7 @@
                 $cao->reagirHoras(19, 20);
                 $cao->reagirHoras(10, 30);
                 $cao->reagirDono(true);
+                $cao->reagirDono(false);
             ?>
         </pre>
     </body>
