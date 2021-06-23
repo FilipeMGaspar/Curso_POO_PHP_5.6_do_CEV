@@ -20,7 +20,7 @@ class Cachorro extends Lobo {
     public function reagirHoras($horas, $min){
        if($horas<12){
            echo "<p>Abanar o rabo!</p>";
-       } else if(hora >= 18){
+       } else if($horas >= 18){
            echo "<p>Ignorar</p>";
        }else {
            echo "<p>Abanar e Latir!</p>";
