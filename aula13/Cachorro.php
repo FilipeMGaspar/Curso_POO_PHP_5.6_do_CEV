@@ -42,6 +42,10 @@ class Cachorro extends Lobo {
             }else {
                 echo "<p>Rebolar e latir!</p>";
             }
+        } else {
+            if($peso < 10){
+                echo "<p>Comer e dormir!</p>";
+            }
         }
     }
 }
