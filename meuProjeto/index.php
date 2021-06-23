@@ -7,7 +7,12 @@
     </head>
     <body>
         <?php
-        // put your code here
+        require_once 'conecao.php';
+        
+        $conect = new conecao();
+        $conect->criarLigacao("user", "db_teste", 123456);
+        
+        
         ?>
     </body>
 </html>
