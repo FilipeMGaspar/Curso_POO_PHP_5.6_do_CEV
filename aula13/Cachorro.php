@@ -39,8 +39,9 @@ class Cachorro extends Lobo {
         if ($idade < 5){
             if($peso < 10){
                 echo "<p>Abanar o rabo, correr!</p>";
+            }else {
+                echo "<p>Rebolar e latir!</p>";
             }
-            
         }
     }
 }
