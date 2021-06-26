@@ -18,7 +18,7 @@ class ligaMySql {
         return $this->userName;
     }
     private function setUserName($userName) {
-        $this->userName = $userName;
+        $this->userName = base64_encode($userName);
     }
 
     private function getPassword() {
@@ -38,7 +38,7 @@ class ligaMySql {
     public function ligacao() {
         $this->ligarDb();
         //Ciar a ligação 
-        $conn = new mysqli($this->getServerName(), $this->getUserName(), $this->getPassword());
+        $conn = new mysqli($this->getServerName(), base64_decode($this->getUserName()), $this->getPassword());
         
         //Teste á coneção
         if ($conn->connect_error) {
