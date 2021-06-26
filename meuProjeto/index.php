@@ -13,7 +13,7 @@
                 $conect = new conecao();
                 $conect->criarLigacao("user", "db_teste", "MTIzNDU2");
                 print_r($conect);
-
+                $conect->verPassword();
             ?>
         </pre>
     </body>
