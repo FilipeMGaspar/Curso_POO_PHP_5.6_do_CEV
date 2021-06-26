@@ -42,9 +42,9 @@ class ligaMySql {
         
         //Teste á coneção
         if ($conn->connect_error) {
-            die("A ligação á base de dados falhou: " . $conn->connect_error);
+            die("<p> A ligação á base de dados falhou: " . $conn->connect_error)."</p>";
         }else{
-            echo "Ligação á base de dados efetuada com sucesso!";
+            echo "<p>Ligação á base de dados efetuada com sucesso!</p>";
         }
     }
 }
