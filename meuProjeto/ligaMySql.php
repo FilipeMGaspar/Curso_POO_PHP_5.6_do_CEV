@@ -32,6 +32,7 @@ class ligaMySql {
     private function ligarDb() {
         $this->setServerName("localhost");
         $this->setUserName("root");
+        $this->setPassword("");
     }
-
+    
 }
