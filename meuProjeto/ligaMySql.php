@@ -37,5 +37,14 @@ class ligaMySql {
     
     public function ligacao() {
         $this->ligarDb();
+        //Ciar a ligação 
+        $conn = new mysqli($this->getServerName(), $this->getUserName(), $this->getPassword());
+        
+        //Teste á coneção
+        if ($conn->connect_error) {
+            die("A ligação á base de dados falhou: " . $conn->connect_error);
+        }else{
+            echo "Ligação á base de dados efetuada com sucesso!";
+        }
     }
 }
