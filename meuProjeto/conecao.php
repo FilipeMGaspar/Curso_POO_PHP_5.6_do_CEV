@@ -38,7 +38,7 @@ class conecao {
     }
     
     public function verPassword() {
-        echo "<p>password encriptada: $this->getPassword()</p>";
+        echo "<p>password encriptada:". $this->getPassword()."</p>";
         $pass = base64_decode($this->getPassword());
         echo "<p>Password desencriptada: $pass</p>";
         $pass = base64_decode($pass);
