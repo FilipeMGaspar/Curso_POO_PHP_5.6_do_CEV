@@ -49,7 +49,17 @@ class ligaMySql {
     }
     
     public function criarDB() {
-        $this->ligacao();
+         //Ciar a ligação 
+        $conn = new mysqli(base64_decode($this->getServerName()), base64_decode($this->getUserName()), base64_decode($this->getPassword()));
+        
+        //Teste á coneção
+        if ($conn->connect_error) {
+            die("<p> A ligação á base de dados falhou: " . $conn->connect_error)."</p>";
+        }else{
+            echo "<p>Ligação á base de dados efetuada com sucesso!</p>";
+        }
+        
+        //Criação da base de dados
         $sql = "CREATE DATABASE myDB";
         if ($conn->query($sql) === TRUE) {
             echo "Database created successfully";
