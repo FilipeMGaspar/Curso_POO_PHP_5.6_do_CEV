@@ -13,7 +13,8 @@
                 require_once 'ligaMySql.php';
                 $cmysql = new ligaMySql();
                 $cmysql->ligacao();
-                print_r($cmysql);
+                $cmysql->criarDB();
+                //print_r($cmysql);
             
                 /*Exercicio de treino 01
                  * require_once 'conecao.php';
