@@ -38,7 +38,7 @@ class conecao {
     }
     
     public function verPassword() {
-        $pass = $this->getPassword();
+        $pass = base64_decode($this->getPassword());
         echo "<p>A sua password é $pass</p>";
     }
 }
