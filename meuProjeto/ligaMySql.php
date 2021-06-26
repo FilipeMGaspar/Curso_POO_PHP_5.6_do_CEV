@@ -35,4 +35,7 @@ class ligaMySql {
         $this->setPassword("");
     }
     
+    public function ligacao() {
+        $this->ligarDb();
+    }
 }
