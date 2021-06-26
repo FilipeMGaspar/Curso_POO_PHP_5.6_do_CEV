@@ -12,6 +12,7 @@
                 //Exercicio de treino 02
                 require_once 'ligaMySql.php';
                 $cmysql = new ligaMySql();
+                $cmysql->ligacao();
                 print_r($cmysql);
             
                 /*Exercicio de treino 01
