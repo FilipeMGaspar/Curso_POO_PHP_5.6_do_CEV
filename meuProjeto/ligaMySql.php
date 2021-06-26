@@ -47,4 +47,27 @@ class ligaMySql {
             echo "<p>Ligação á base de dados efetuada com sucesso!</p>";
         }
     }
+    
+    public function criarDB() {
+        $this->ligacao();
+        $sql = "CREATE DATABASE myDB";
+        if ($conn->query($sql) === TRUE) {
+            echo "Database created successfully";
+        } else {
+            echo "Error creating database: " . $conn->error;
+        }
+    
+       $conn->close();
+    }
+    /*
+    *  // Create database
+    *   $sql = "CREATE DATABASE myDB";
+    *   if ($conn->query($sql) === TRUE) {
+    *     echo "Database created successfully";
+    *   } else {
+    *     echo "Error creating database: " . $conn->error;
+    *   }
+    *
+    *   $conn->close();
+    */
 }
