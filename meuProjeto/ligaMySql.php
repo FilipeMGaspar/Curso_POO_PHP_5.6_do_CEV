@@ -49,7 +49,7 @@ class ligaMySql {
     }
     
     public function criarDB() {
-         //Ciar a ligação 
+        //Ciar a ligação 
         $conn = new mysqli(base64_decode($this->getServerName()), base64_decode($this->getUserName()), base64_decode($this->getPassword()));
         
         //Teste á coneção
