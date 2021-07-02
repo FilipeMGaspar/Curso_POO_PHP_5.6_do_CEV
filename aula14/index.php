@@ -10,12 +10,16 @@ and open the template in the editor.
         <title>Aula 14b - Projeto Final em PHP (Parte 1)</title>
     </head>
     <body>
-        <?php
-            require_once 'Video.php';
-            
-            $v[0] = new Video("Aula 1 de POO");
-            $v[1] = new Video("Aula 12 de PHP");
-            $v[2] = new Video("Aula 15 de HTML5");
-        ?>
+        <pre>
+            <?php
+                require_once 'Video.php';
+
+                $v[0] = new Video("Aula 1 de POO");
+                $v[1] = new Video("Aula 12 de PHP");
+                $v[2] = new Video("Aula 15 de HTML5");
+
+                print_r($v);
+            ?>
+        </pre>
     </body>
 </html>
