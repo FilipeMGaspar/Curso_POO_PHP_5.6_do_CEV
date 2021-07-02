@@ -9,6 +9,12 @@ class Video implements AcoesVideo {
     private $curtidas;
     private $repoduzindo;
     
+    //Método Construtor
+    public function __construct($titulo) {
+        $this->titulo = $titulo;
+    }
+
+    
     //Métodos geter e seter
     public function getTitulo() {
         return $this->titulo;
