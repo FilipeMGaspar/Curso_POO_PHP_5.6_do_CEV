@@ -1,9 +1,18 @@
 <?php
+require_once 'Pessoa.php';
 
-class Gafanhoto {
+class Gafanhoto extends Pessoa{
     //Atributos
     private $login;
     private $totoAssistido;
+    
+    //Método Construtor
+    public function __construct($nome, $idade, $sexo, $login) {
+        super($nome, $idade, $sexo);
+        $this->login = $login;
+        $this->totoAssistido = 0;
+    }
+
     
     //Métodos Geter e Seter
     public function getLogin() {
