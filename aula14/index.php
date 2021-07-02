@@ -11,7 +11,10 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-
+            require_once 'Video.php';
+            
+            $v[0] = new Video("Aula 1 de POO");
+            
         ?>
     </body>
 </html>
