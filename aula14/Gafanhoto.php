@@ -8,7 +8,7 @@ class Gafanhoto extends Pessoa{
     
     //Método Construtor
     public function __construct($nome, $idade, $sexo, $login) {
-        super($nome, $idade, $sexo);
+        parent::__construct($nome, $idade, $sexo);
         $this->login = $login;
         $this->totoAssistido = 0;
     }
