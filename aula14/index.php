@@ -21,7 +21,7 @@ and open the template in the editor.
                 print_r($v);
                 
                 $g[0] = new Gafanhoto("Jubileu", 22, 'M', "Juba");
-                $g[1] = new Gafanhoto("Creuza", 25, 'F', "Creuzinha")
+                $g[1] = new Gafanhoto("Creuza", 25, 'F', "Creuzinha");
                 print_r($g);
             ?>
         </pre>
