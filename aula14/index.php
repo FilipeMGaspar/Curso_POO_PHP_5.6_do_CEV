@@ -20,7 +20,8 @@ and open the template in the editor.
                 $v[2] = new Video("Aula 15 de HTML5");
                 print_r($v);
                 
-                $g = new Gafanhoto("Jubileu", 22, 'M', "Juba");
+                $g[0] = new Gafanhoto("Jubileu", 22, 'M', "Juba");
+                $g[1] = new Gafanhoto("Creuza", 25, 'F', "Creuzinha")
                 print_r($g);
             ?>
         </pre>
