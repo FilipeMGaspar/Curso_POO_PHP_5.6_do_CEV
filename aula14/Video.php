@@ -45,6 +45,19 @@ class Video implements AcoesVideo {
         $this->repoduzindo = $repoduzindo;
     }
 
-    //Implementação da Interface
+    //Implementação dos méytodos abstracos vindos da Interface
+    public function like() {
+        
+    }
+
+    public function pause() {
+        
+    }
+
+    public function play() {
+        
+    }
+
+    
     
 }
