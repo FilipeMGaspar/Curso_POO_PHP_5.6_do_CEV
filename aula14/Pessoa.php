@@ -8,8 +8,8 @@ class Pessoa {
     protected $esperiencia;
     
     //Método protegido da classe Pessoa
-    protected function ganharExp() {
-        $this->esperiencia++;
+    protected function ganharExp($n) {
+        $this->esperiencia += $n;
     }
     
     //Métodos Geter e Seter
