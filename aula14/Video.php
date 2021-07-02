@@ -1,6 +1,7 @@
 <?php
+require_once 'AcoesVideo.php';
 
-class Video {
+class Video implements AcoesVideo {
    //Atributos
     private $titulo;
     private $avaliacao;
@@ -44,4 +45,6 @@ class Video {
         $this->repoduzindo = $repoduzindo;
     }
 
+    //Implementação da Interface
+    
 }
