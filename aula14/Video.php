@@ -12,6 +12,10 @@ class Video implements AcoesVideo {
     //Método Construtor
     public function __construct($titulo) {
         $this->titulo = $titulo;
+        $this->avaliacao = 1;
+        $this->views = 0;
+        $this->curtidas = 0;
+        $this->repoduzindo = false;
     }
 
     
