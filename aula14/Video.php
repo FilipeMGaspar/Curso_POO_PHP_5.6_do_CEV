@@ -57,15 +57,15 @@ class Video implements AcoesVideo {
 
     //Implementação dos méytodos abstracos vindos da Interface
     public function like() {
-        
+        $this->curtidas++;
     }
 
     public function pause() {
-        
+        $this->repoduzindo = false;
     }
 
     public function play() {
-        
+        $this->repoduzindo = true;
     }
 
     
