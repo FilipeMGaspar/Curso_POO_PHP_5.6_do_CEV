@@ -1,15 +1,24 @@
 <?php
 
-class Pessoa {
+abstract class Pessoa {
     //Atributos
     protected $nome;
     protected $idade;
     protected $sexo;
-    protected $esperiencia;
+    protected $experiencia;
+    
+    //Método construtor
+    public function __construct($nome, $idade, $sexo) {
+        $this->nome = $nome;
+        $this->idade = $idade;
+        $this->sexo = $sexo;
+        $this->e
+    }
+
     
     //Método protegido da classe Pessoa
     protected function ganharExp($n) {
-        $this->esperiencia += $n;
+        $this->experiencia += $n;
     }
     
     //Métodos Geter e Seter
@@ -34,11 +43,11 @@ class Pessoa {
         $this->sexo = $sexo;
     }
 
-    public function getEsperiencia() {
-        return $this->esperiencia;
+    public function getExperiencia() {
+        return $this->experienciaperiencia;
     }
-    public function setEsperiencia($esperiencia) {
-        $this->esperiencia = $esperiencia;
+    public function setExperiencia($esperiencia) {
+        $this->experiencia = $esperiencia;
     }
 
 }
