@@ -5,5 +5,8 @@ class Gafanhoto {
     private $login;
     private $totoAssistido;
     
-
+    //Método Público
+    public function viuMaisUm() {
+        
+    }
 }
