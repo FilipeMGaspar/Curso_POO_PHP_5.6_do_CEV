@@ -7,5 +7,9 @@ class Pessoa {
     protected $sexo;
     protected $esperiencia;
     
+    //Método protegido da classe Pessoa
+    protected function ganharExp() {
+        
+    }
     
 }
