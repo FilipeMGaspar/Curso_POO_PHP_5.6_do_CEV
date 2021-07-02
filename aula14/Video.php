@@ -1,5 +1,5 @@
 <?php
 
-class video {
+class Video {
    
 }
