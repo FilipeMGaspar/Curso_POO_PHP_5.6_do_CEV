@@ -26,6 +26,7 @@ and open the template in the editor.
                 print_r($g);
                 
                 $vis[0] = new Visualizacao($g[0], $v[2]);//Jubileu assiste HTML5
+                $vis[1] = new Visualizacao($g[0], $v[0]);//Jubileu assiste PHP 
                 print_r($vis);
             ?>
         </pre>
