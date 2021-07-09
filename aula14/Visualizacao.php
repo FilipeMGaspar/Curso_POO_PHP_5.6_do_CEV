@@ -12,6 +12,7 @@ class Visualizacao {
         $this->espectador = $espectador;
         $this->filme = $filme;
         $this->filme->setViews($this->filme->getViews() + 1);
+        $this->espectador->setTotoAssistido($this->getTotoAssistido() + 1);
     }
 
     //Métodos Geter e Seter
