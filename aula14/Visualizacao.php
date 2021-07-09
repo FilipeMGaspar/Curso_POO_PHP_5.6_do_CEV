@@ -11,6 +11,7 @@ class Visualizacao {
     public function __construct($espectador, $filme) {
         $this->espectador = $espectador;
         $this->filme = $filme;
+        $this->filme->setViews($this->filme->getViews() + 1);
     }
 
     //Métodos Geter e Seter
