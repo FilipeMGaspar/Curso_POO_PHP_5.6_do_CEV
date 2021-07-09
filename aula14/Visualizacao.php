@@ -25,7 +25,16 @@ class Visualizacao {
     }
     
     public function avaliarPorc($porc) {
-        
+        $nova = 0;
+        if($porc <= 20){
+            $nova = 3;
+        }elseif ($porc <= 50) {
+            $nova = 5;
+        }elseif ($porc <= 90) {
+            $nova = 8;
+        }else{
+            $nova = 10;
+        }
     }
 
     //Métodos Geter e Seter
