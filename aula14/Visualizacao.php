@@ -17,11 +17,11 @@ class Visualizacao {
     
     //Sobrecarga do método avaliar
     public function avaliar() {
-        
+        $this->filme->setAvaliacao(5);
     }
     
     public function avaliarNota($nota) {
-        
+        $this->filme->setAvaliacao($nota);
     }
     
     public function avaliarPorc($porc) {
