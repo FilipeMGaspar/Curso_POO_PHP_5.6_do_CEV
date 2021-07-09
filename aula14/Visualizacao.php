@@ -14,6 +14,19 @@ class Visualizacao {
         $this->filme->setViews($this->filme->getViews() + 1);
         $this->espectador->setTotoAssistido($this->espectador->getTotoAssistido() + 1);
     }
+    
+    //Sobrecarga do método avaliar
+    public function avaliar() {
+        
+    }
+    
+    public function avaliar($nota) {
+        
+    }
+    
+    public function functionName($porc) {
+        
+    }
 
     //Métodos Geter e Seter
     public function getEspectador() {
