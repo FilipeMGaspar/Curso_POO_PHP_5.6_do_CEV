@@ -20,11 +20,11 @@ class Visualizacao {
         
     }
     
-    public function avaliar($nota) {
+    public function avaliarNota($nota) {
         
     }
     
-    public function functionName($porc) {
+    public function avaliarPorc($porc) {
         
     }
 
