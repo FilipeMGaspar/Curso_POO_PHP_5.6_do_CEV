@@ -25,7 +25,8 @@ and open the template in the editor.
                 $g[1] = new Gafanhoto("Creuza", 25, 'F', "Creuzinha");
                 print_r($g);
                 
-                $vis[0] = new Visualizacao($g[0], $v[2]);
+                $vis[0] = new Visualizacao($g[0], $v[2]);//Jubileu assiste HTML5
+                print_r($vis);
             ?>
         </pre>
     </body>
