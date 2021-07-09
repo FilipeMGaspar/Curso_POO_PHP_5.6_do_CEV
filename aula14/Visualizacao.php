@@ -35,6 +35,7 @@ class Visualizacao {
         }else{
             $nova = 10;
         }
+        $this->filme->setAvaliacao($nova);
     }
 
     //Métodos Geter e Seter
