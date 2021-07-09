@@ -14,6 +14,7 @@ and open the template in the editor.
             <?php
                 require_once 'Video.php';
                 require_once 'Gafanhoto.php';
+                require_once 'Visualizacao.php';
 
                 $v[0] = new Video("Aula 1 de POO");
                 $v[1] = new Video("Aula 12 de PHP");
@@ -23,6 +24,8 @@ and open the template in the editor.
                 $g[0] = new Gafanhoto("Jubileu", 22, 'M', "Juba");
                 $g[1] = new Gafanhoto("Creuza", 25, 'F', "Creuzinha");
                 print_r($g);
+                
+                $vis[0] = new Visualizacao($g[0], $v[2]);
             ?>
         </pre>
     </body>
